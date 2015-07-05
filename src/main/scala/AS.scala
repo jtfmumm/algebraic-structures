@@ -3,9 +3,14 @@ import algstructs._
 import algprops._
 import org.scalacheck._
 import org.scalacheck.Arbitrary._
+import org.scalacheck.Test._
 
 object AS {
   def main(args: Array[String]) = {
+//    val testParams = new Parameters.Default {
+//      override val minSuccessfulTests = 600
+//    }
+
     case class IntAdd extends AbelianGroup[Int] {
       val e = 0
       def inv(a: Int): Int = 0 - a
@@ -25,11 +30,11 @@ object AS {
       def op(a: String, b: String): String = a + b
     }
 
-    val i = new IntAdd
-    println(i.op(1, 2))
+    val int1 = Gen.choose(0, 100)
     val int2List = Gen.listOfN(2, Gen.choose(0, 100)).suchThat(_.size == 2)
     val int3List = Gen.listOfN(3, Gen.choose(0, 100)).suchThat(_.size == 3)
-    val string2List = Gen.listOfN(3, arbitrary[String]).suchThat(_.size == 2)
+    val string1 = arbitrary[String]
+    val string2List = Gen.listOfN(2, arbitrary[String]).suchThat(_.size == 2)
     val string3List = Gen.listOfN(3, arbitrary[String]).suchThat(_.size == 3)
     println("IntAdd: defined")
     println(AlgProperties.definedForAllElementsOn[Int](IntAdd(), int2List).check)
@@ -45,6 +50,11 @@ object AS {
     println(AlgProperties.commutativityOn[String](StringConcat(), string2List).check)
     println("IntAdd: comm")
     println(AlgProperties.commutativityOn[Int](IntAdd(), int3List).check)
+    println("IntAdd: id")
+    println(AlgProperties.identityOn[Int](IntAdd(), int1).check)
+    println("IntAdd: inv")
+    println(AlgProperties.inverseOn[Int](IntAdd(), int1).check)
+    println("StringConcat: id")
+    println(AlgProperties.identityOn[String](StringConcat(), string1).check)
   }
-
 }

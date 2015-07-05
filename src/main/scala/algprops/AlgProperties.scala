@@ -3,6 +3,8 @@ import org.scalacheck.Prop._
 import org.scalacheck._
 import main.scala.algstructs._
 
+
+
 object AlgProperties {
   // closure and injection are assured by the fact that in this implementation op is always a function of the form (A, A) => A
   def definedForAllElementsOn[A](as: Magma[A], genFor: Gen[List[A]]) = forAll(genFor)(l => {
