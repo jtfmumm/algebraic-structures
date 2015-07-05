@@ -11,5 +11,5 @@ lazy val root = (project in file(".")).
   settings(commonSettings: _*).
   settings(
     name := "Algebraic Structures",
-    libraryDependencies += scalacheck % Test
+    libraryDependencies += scalacheck
   )
