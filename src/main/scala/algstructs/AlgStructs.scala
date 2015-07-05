@@ -1,3 +1,5 @@
+package main.scala.algstructs
+
 
 trait AlgStruct[A] {
   def op(a: A, b: A): A
@@ -20,17 +22,4 @@ trait Group[A] extends Monoid[A] {
 
 trait AbelianGroup[A] extends Group[A] {
     //Op is commutative
-}
-
-
-case class IntAdd extends AbelianGroup[Int] {
-  val e = 0
-  def inv(a: Int): Int = 0 - a
-
-  def op(a: Int, b: Int): Int = a + b
-}
-
-case class StringConcat extends Monoid[String] {
-  val e = ""
-  def op(a: String, b: String): String = a + b
 }
