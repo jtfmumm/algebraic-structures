@@ -1,5 +1,6 @@
 package main.scala
 import algstructs._
+import org.scalacheck._
 
 object AS {
   def main(args: Array[String]) = {
@@ -17,6 +18,8 @@ object AS {
 
     val i = new IntAdd
     println(i.op(1, 2))
+    val intList = Gen.listOf(Gen.choose(0, 100))
+    println(intList)
   }
 
 }

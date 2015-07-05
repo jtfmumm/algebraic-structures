@@ -2,11 +2,14 @@ package main.scala.algstructs
 
 
 trait AlgStruct[A] {
-  def op(a: A, b: A): A
-    //Defined for any (a, b) in A.
 }
 
-trait SemiGroup[A] extends AlgStruct[A] {
+trait Magma[A] extends AlgStruct[A] {
+  def op(a: A, b: A): A
+  //Defined for any (a, b) in A.
+}
+
+trait SemiGroup[A] extends Magma[A] {
     //Op is associative
 }
 
