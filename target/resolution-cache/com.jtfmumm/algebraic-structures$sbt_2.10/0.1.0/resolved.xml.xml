@@ -4,7 +4,7 @@
 		module="algebraic-structures$sbt_2.10"
 		revision="0.1.0"
 		status="integration"
-		publication="20150706173358"
+		publication="20150706182633"
 	/>
 	<configurations>
 		<conf name="default" visibility="public"/>

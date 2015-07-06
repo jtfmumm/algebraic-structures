@@ -4,8 +4,8 @@ import algprops._
 import org.scalacheck._
 import org.scalacheck.Arbitrary._
 import org.scalacheck.Test._
-import sets.PureSet
-import sets.ui._
+import com.jtfmumm.sets.PureSet
+import com.jtfmumm.sets.ui._
 
 object AS {
   def main(args: Array[String]) = {

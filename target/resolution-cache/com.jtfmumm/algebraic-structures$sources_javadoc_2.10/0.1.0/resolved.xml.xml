@@ -4,7 +4,7 @@
 		module="algebraic-structures$sources_javadoc_2.10"
 		revision="0.1.0"
 		status="integration"
-		publication="20150706173359"
+		publication="20150706180228"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
@@ -35,6 +35,14 @@
 		<dependency org="org.scala-sbt" name="test-interface" rev="1.0" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
 			<artifact name="test-interface" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 			<artifact name="test-interface" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="com.jtfmumm" name="set-theory_2.10" rev="0.1.2" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="set-theory_2.10" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="set-theory_2.10" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="com.jtfmumm" name="digit-parser_2.10" rev="0.1.0" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="digit-parser_2.10" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="digit-parser_2.10" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 		</dependency>
 		<dependency org="org.scala-lang" name="scala-compiler" rev="2.10.3" transitive="false" conf="scala-tool->default(compile)">
 			<artifact name="scala-compiler" type="src" ext="jar" conf="sources" e:classifier="sources"/>

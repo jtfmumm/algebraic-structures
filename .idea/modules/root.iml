@@ -29,6 +29,8 @@
     <orderEntry type="library" name="SBT: org.scala-lang:scala-library:2.10.5" level="project" />
     <orderEntry type="library" name="SBT: org.scala-sbt:test-interface:1.0" level="project" />
     <orderEntry type="library" name="SBT: org.scalacheck:scalacheck_2.10:1.12.4" level="project" />
+    <orderEntry type="library" name="SBT: com.jtfmumm:digit-parser_2.10:0.1.0" level="project" />
+    <orderEntry type="library" name="SBT: com.jtfmumm:set-theory_2.10:0.1.2" level="project" />
   </component>
 </module>
 

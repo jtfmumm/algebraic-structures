@@ -1,4 +1,5 @@
 lazy val scalacheck = "org.scalacheck" %% "scalacheck" % "1.12.4"
+lazy val setTheory = "com.jtfmumm" %% "set-theory" % "0.1.4"
 
 
 lazy val commonSettings = Seq(
@@ -12,6 +13,7 @@ lazy val root = (project in file(".")).
   settings(
     name := "Algebraic Structures",
     libraryDependencies += scalacheck,
+    libraryDependencies += setTheory,
     publishMavenStyle := true,
     publishTo := {
       val nexus = "https://oss.sonatype.org/"

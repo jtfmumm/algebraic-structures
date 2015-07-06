@@ -6,7 +6,7 @@
 [debug] == resolving dependencies for com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0 [compile]
 [debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->org.scalacheck#scalacheck_2.10;1.12.4 [compile->default(compile)]
 [info] Resolving org.scalacheck#scalacheck_2.10;1.12.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4f03a2d8
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@fea3ccd
 [debug] sbt-chain: module revision found in cache: org.scalacheck#scalacheck_2.10;1.12.4
 [debug] 	local: revision in cache: org.scalacheck#scalacheck_2.10;1.12.4
 [debug] 	found org.scalacheck#scalacheck_2.10;1.12.4 in sbt-chain
@@ -15,7 +15,7 @@
 [debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->org.scalacheck#scalacheck_2.10;1.12.4 [compile->master]
 [debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->org.scala-lang#scala-library;2.10.5 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.10.5 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@751fcae6
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5a1daeba
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.5
 [debug] 	local: revision in cache: org.scala-lang#scala-library;2.10.5
 [debug] 	found org.scala-lang#scala-library;2.10.5 in sbt-chain
@@ -25,13 +25,31 @@
 [debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->org.scala-lang#scala-library;2.10.5 [compile->master]
 [debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->org.scala-sbt#test-interface;1.0 [compile->default(compile)]
 [info] Resolving org.scala-sbt#test-interface;1.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@609bd4ac
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@49675d6
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#test-interface;1.0
 [debug] 	local: revision in cache: org.scala-sbt#test-interface;1.0
 [debug] 	found org.scala-sbt#test-interface;1.0 in sbt-chain
 [debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->org.scala-sbt#test-interface;1.0 [compile->runtime]
 [debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->org.scala-sbt#test-interface;1.0 [compile->compile]
 [debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->org.scala-sbt#test-interface;1.0 [compile->master]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#set-theory_2.10;0.1.2 [compile->default(compile)]
+[info] Resolving com.jtfmumm#set-theory_2.10;0.1.2 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4b0b8772
+[debug] sbt-chain: module revision found in cache: com.jtfmumm#set-theory_2.10;0.1.2
+[debug] 	local: revision in cache: com.jtfmumm#set-theory_2.10;0.1.2
+[debug] 	found com.jtfmumm#set-theory_2.10;0.1.2 in sbt-chain
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#set-theory_2.10;0.1.2 [compile->runtime]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#set-theory_2.10;0.1.2 [compile->compile]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#set-theory_2.10;0.1.2 [compile->master]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#digit-parser_2.10;0.1.0 [compile->default(compile)]
+[info] Resolving com.jtfmumm#digit-parser_2.10;0.1.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@367a8bd9
+[debug] sbt-chain: module revision found in cache: com.jtfmumm#digit-parser_2.10;0.1.0
+[debug] 	local: revision in cache: com.jtfmumm#digit-parser_2.10;0.1.0
+[debug] 	found com.jtfmumm#digit-parser_2.10;0.1.0 in sbt-chain
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#digit-parser_2.10;0.1.0 [compile->runtime]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#digit-parser_2.10;0.1.0 [compile->compile]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#digit-parser_2.10;0.1.0 [compile->master]
 [debug] resolving dependencies for configuration 'runtime'
 [debug] == resolving dependencies for com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0 [runtime]
 [debug] == resolving dependencies for com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0 [compile]
@@ -47,6 +65,14 @@
 [debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->org.scala-sbt#test-interface;1.0 [compile->runtime]
 [debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->org.scala-sbt#test-interface;1.0 [compile->compile]
 [debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->org.scala-sbt#test-interface;1.0 [compile->master]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#set-theory_2.10;0.1.2 [compile->default(compile)]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#set-theory_2.10;0.1.2 [compile->runtime]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#set-theory_2.10;0.1.2 [compile->compile]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#set-theory_2.10;0.1.2 [compile->master]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#digit-parser_2.10;0.1.0 [compile->default(compile)]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#digit-parser_2.10;0.1.0 [compile->runtime]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#digit-parser_2.10;0.1.0 [compile->compile]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#digit-parser_2.10;0.1.0 [compile->master]
 [debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->org.scalacheck#scalacheck_2.10;1.12.4 [runtime->default(compile)]
 [debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->org.scalacheck#scalacheck_2.10;1.12.4 [runtime->runtime]
 [debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->org.scalacheck#scalacheck_2.10;1.12.4 [runtime->compile]
@@ -59,6 +85,14 @@
 [debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->org.scala-sbt#test-interface;1.0 [runtime->runtime]
 [debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->org.scala-sbt#test-interface;1.0 [runtime->compile]
 [debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->org.scala-sbt#test-interface;1.0 [runtime->master]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#set-theory_2.10;0.1.2 [runtime->default(compile)]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#set-theory_2.10;0.1.2 [runtime->runtime]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#set-theory_2.10;0.1.2 [runtime->compile]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#set-theory_2.10;0.1.2 [runtime->master]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#digit-parser_2.10;0.1.0 [runtime->default(compile)]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#digit-parser_2.10;0.1.0 [runtime->runtime]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#digit-parser_2.10;0.1.0 [runtime->compile]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#digit-parser_2.10;0.1.0 [runtime->master]
 [debug] resolving dependencies for configuration 'test'
 [debug] == resolving dependencies for com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0 [test]
 [debug] == resolving dependencies for com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0 [runtime]
@@ -75,6 +109,14 @@
 [debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->org.scala-sbt#test-interface;1.0 [compile->runtime]
 [debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->org.scala-sbt#test-interface;1.0 [compile->compile]
 [debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->org.scala-sbt#test-interface;1.0 [compile->master]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#set-theory_2.10;0.1.2 [compile->default(compile)]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#set-theory_2.10;0.1.2 [compile->runtime]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#set-theory_2.10;0.1.2 [compile->compile]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#set-theory_2.10;0.1.2 [compile->master]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#digit-parser_2.10;0.1.0 [compile->default(compile)]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#digit-parser_2.10;0.1.0 [compile->runtime]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#digit-parser_2.10;0.1.0 [compile->compile]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#digit-parser_2.10;0.1.0 [compile->master]
 [debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->org.scalacheck#scalacheck_2.10;1.12.4 [runtime->default(compile)]
 [debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->org.scalacheck#scalacheck_2.10;1.12.4 [runtime->runtime]
 [debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->org.scalacheck#scalacheck_2.10;1.12.4 [runtime->compile]
@@ -87,6 +129,14 @@
 [debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->org.scala-sbt#test-interface;1.0 [runtime->runtime]
 [debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->org.scala-sbt#test-interface;1.0 [runtime->compile]
 [debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->org.scala-sbt#test-interface;1.0 [runtime->master]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#set-theory_2.10;0.1.2 [runtime->default(compile)]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#set-theory_2.10;0.1.2 [runtime->runtime]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#set-theory_2.10;0.1.2 [runtime->compile]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#set-theory_2.10;0.1.2 [runtime->master]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#digit-parser_2.10;0.1.0 [runtime->default(compile)]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#digit-parser_2.10;0.1.0 [runtime->runtime]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#digit-parser_2.10;0.1.0 [runtime->compile]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#digit-parser_2.10;0.1.0 [runtime->master]
 [debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->org.scalacheck#scalacheck_2.10;1.12.4 [test->default(compile)]
 [debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->org.scalacheck#scalacheck_2.10;1.12.4 [test->runtime]
 [debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->org.scalacheck#scalacheck_2.10;1.12.4 [test->compile]
@@ -99,6 +149,14 @@
 [debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->org.scala-sbt#test-interface;1.0 [test->runtime]
 [debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->org.scala-sbt#test-interface;1.0 [test->compile]
 [debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->org.scala-sbt#test-interface;1.0 [test->master]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#set-theory_2.10;0.1.2 [test->default(compile)]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#set-theory_2.10;0.1.2 [test->runtime]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#set-theory_2.10;0.1.2 [test->compile]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#set-theory_2.10;0.1.2 [test->master]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#digit-parser_2.10;0.1.0 [test->default(compile)]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#digit-parser_2.10;0.1.0 [test->runtime]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#digit-parser_2.10;0.1.0 [test->compile]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#digit-parser_2.10;0.1.0 [test->master]
 [debug] resolving dependencies for configuration 'provided'
 [debug] == resolving dependencies for com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0 [provided]
 [debug] resolving dependencies for configuration 'optional'
@@ -118,6 +176,14 @@
 [debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->org.scala-sbt#test-interface;1.0 [compile->runtime]
 [debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->org.scala-sbt#test-interface;1.0 [compile->compile]
 [debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->org.scala-sbt#test-interface;1.0 [compile->master]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#set-theory_2.10;0.1.2 [compile->default(compile)]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#set-theory_2.10;0.1.2 [compile->runtime]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#set-theory_2.10;0.1.2 [compile->compile]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#set-theory_2.10;0.1.2 [compile->master]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#digit-parser_2.10;0.1.0 [compile->default(compile)]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#digit-parser_2.10;0.1.0 [compile->runtime]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#digit-parser_2.10;0.1.0 [compile->compile]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#digit-parser_2.10;0.1.0 [compile->master]
 [debug] == resolving dependencies for com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0 [optional]
 [debug] == resolving dependencies for com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0 [provided]
 [debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->org.scalacheck#scalacheck_2.10;1.12.4 [compile-internal->default(compile)]
@@ -132,6 +198,14 @@
 [debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->org.scala-sbt#test-interface;1.0 [compile-internal->runtime]
 [debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->org.scala-sbt#test-interface;1.0 [compile-internal->compile]
 [debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->org.scala-sbt#test-interface;1.0 [compile-internal->master]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#set-theory_2.10;0.1.2 [compile-internal->default(compile)]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#set-theory_2.10;0.1.2 [compile-internal->runtime]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#set-theory_2.10;0.1.2 [compile-internal->compile]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#set-theory_2.10;0.1.2 [compile-internal->master]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#digit-parser_2.10;0.1.0 [compile-internal->default(compile)]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#digit-parser_2.10;0.1.0 [compile-internal->runtime]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#digit-parser_2.10;0.1.0 [compile-internal->compile]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#digit-parser_2.10;0.1.0 [compile-internal->master]
 [debug] resolving dependencies for configuration 'runtime-internal'
 [debug] == resolving dependencies for com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0 [runtime-internal]
 [debug] == resolving dependencies for com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0 [runtime]
@@ -148,6 +222,14 @@
 [debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->org.scala-sbt#test-interface;1.0 [compile->runtime]
 [debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->org.scala-sbt#test-interface;1.0 [compile->compile]
 [debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->org.scala-sbt#test-interface;1.0 [compile->master]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#set-theory_2.10;0.1.2 [compile->default(compile)]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#set-theory_2.10;0.1.2 [compile->runtime]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#set-theory_2.10;0.1.2 [compile->compile]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#set-theory_2.10;0.1.2 [compile->master]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#digit-parser_2.10;0.1.0 [compile->default(compile)]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#digit-parser_2.10;0.1.0 [compile->runtime]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#digit-parser_2.10;0.1.0 [compile->compile]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#digit-parser_2.10;0.1.0 [compile->master]
 [debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->org.scalacheck#scalacheck_2.10;1.12.4 [runtime->default(compile)]
 [debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->org.scalacheck#scalacheck_2.10;1.12.4 [runtime->runtime]
 [debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->org.scalacheck#scalacheck_2.10;1.12.4 [runtime->compile]
@@ -160,6 +242,14 @@
 [debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->org.scala-sbt#test-interface;1.0 [runtime->runtime]
 [debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->org.scala-sbt#test-interface;1.0 [runtime->compile]
 [debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->org.scala-sbt#test-interface;1.0 [runtime->master]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#set-theory_2.10;0.1.2 [runtime->default(compile)]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#set-theory_2.10;0.1.2 [runtime->runtime]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#set-theory_2.10;0.1.2 [runtime->compile]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#set-theory_2.10;0.1.2 [runtime->master]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#digit-parser_2.10;0.1.0 [runtime->default(compile)]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#digit-parser_2.10;0.1.0 [runtime->runtime]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#digit-parser_2.10;0.1.0 [runtime->compile]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#digit-parser_2.10;0.1.0 [runtime->master]
 [debug] == resolving dependencies for com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0 [optional]
 [debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->org.scalacheck#scalacheck_2.10;1.12.4 [runtime-internal->default(compile)]
 [debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->org.scalacheck#scalacheck_2.10;1.12.4 [runtime-internal->runtime]
@@ -173,6 +263,14 @@
 [debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->org.scala-sbt#test-interface;1.0 [runtime-internal->runtime]
 [debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->org.scala-sbt#test-interface;1.0 [runtime-internal->compile]
 [debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->org.scala-sbt#test-interface;1.0 [runtime-internal->master]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#set-theory_2.10;0.1.2 [runtime-internal->default(compile)]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#set-theory_2.10;0.1.2 [runtime-internal->runtime]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#set-theory_2.10;0.1.2 [runtime-internal->compile]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#set-theory_2.10;0.1.2 [runtime-internal->master]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#digit-parser_2.10;0.1.0 [runtime-internal->default(compile)]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#digit-parser_2.10;0.1.0 [runtime-internal->runtime]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#digit-parser_2.10;0.1.0 [runtime-internal->compile]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#digit-parser_2.10;0.1.0 [runtime-internal->master]
 [debug] resolving dependencies for configuration 'test-internal'
 [debug] == resolving dependencies for com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0 [test-internal]
 [debug] == resolving dependencies for com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0 [test]
@@ -190,6 +288,14 @@
 [debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->org.scala-sbt#test-interface;1.0 [compile->runtime]
 [debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->org.scala-sbt#test-interface;1.0 [compile->compile]
 [debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->org.scala-sbt#test-interface;1.0 [compile->master]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#set-theory_2.10;0.1.2 [compile->default(compile)]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#set-theory_2.10;0.1.2 [compile->runtime]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#set-theory_2.10;0.1.2 [compile->compile]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#set-theory_2.10;0.1.2 [compile->master]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#digit-parser_2.10;0.1.0 [compile->default(compile)]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#digit-parser_2.10;0.1.0 [compile->runtime]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#digit-parser_2.10;0.1.0 [compile->compile]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#digit-parser_2.10;0.1.0 [compile->master]
 [debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->org.scalacheck#scalacheck_2.10;1.12.4 [runtime->default(compile)]
 [debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->org.scalacheck#scalacheck_2.10;1.12.4 [runtime->runtime]
 [debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->org.scalacheck#scalacheck_2.10;1.12.4 [runtime->compile]
@@ -202,6 +308,14 @@
 [debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->org.scala-sbt#test-interface;1.0 [runtime->runtime]
 [debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->org.scala-sbt#test-interface;1.0 [runtime->compile]
 [debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->org.scala-sbt#test-interface;1.0 [runtime->master]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#set-theory_2.10;0.1.2 [runtime->default(compile)]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#set-theory_2.10;0.1.2 [runtime->runtime]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#set-theory_2.10;0.1.2 [runtime->compile]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#set-theory_2.10;0.1.2 [runtime->master]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#digit-parser_2.10;0.1.0 [runtime->default(compile)]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#digit-parser_2.10;0.1.0 [runtime->runtime]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#digit-parser_2.10;0.1.0 [runtime->compile]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#digit-parser_2.10;0.1.0 [runtime->master]
 [debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->org.scalacheck#scalacheck_2.10;1.12.4 [test->default(compile)]
 [debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->org.scalacheck#scalacheck_2.10;1.12.4 [test->runtime]
 [debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->org.scalacheck#scalacheck_2.10;1.12.4 [test->compile]
@@ -214,6 +328,14 @@
 [debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->org.scala-sbt#test-interface;1.0 [test->runtime]
 [debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->org.scala-sbt#test-interface;1.0 [test->compile]
 [debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->org.scala-sbt#test-interface;1.0 [test->master]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#set-theory_2.10;0.1.2 [test->default(compile)]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#set-theory_2.10;0.1.2 [test->runtime]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#set-theory_2.10;0.1.2 [test->compile]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#set-theory_2.10;0.1.2 [test->master]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#digit-parser_2.10;0.1.0 [test->default(compile)]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#digit-parser_2.10;0.1.0 [test->runtime]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#digit-parser_2.10;0.1.0 [test->compile]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#digit-parser_2.10;0.1.0 [test->master]
 [debug] == resolving dependencies for com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0 [optional]
 [debug] == resolving dependencies for com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0 [provided]
 [debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->org.scalacheck#scalacheck_2.10;1.12.4 [test-internal->default(compile)]
@@ -228,6 +350,14 @@
 [debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->org.scala-sbt#test-interface;1.0 [test-internal->runtime]
 [debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->org.scala-sbt#test-interface;1.0 [test-internal->compile]
 [debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->org.scala-sbt#test-interface;1.0 [test-internal->master]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#set-theory_2.10;0.1.2 [test-internal->default(compile)]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#set-theory_2.10;0.1.2 [test-internal->runtime]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#set-theory_2.10;0.1.2 [test-internal->compile]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#set-theory_2.10;0.1.2 [test-internal->master]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#digit-parser_2.10;0.1.0 [test-internal->default(compile)]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#digit-parser_2.10;0.1.0 [test-internal->runtime]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#digit-parser_2.10;0.1.0 [test-internal->compile]
+[debug] == resolving dependencies com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0->com.jtfmumm#digit-parser_2.10;0.1.0 [test-internal->master]
 [debug] resolving dependencies for configuration 'plugin'
 [debug] == resolving dependencies for com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0 [plugin]
 [debug] resolving dependencies for configuration 'sources'
@@ -296,6 +426,24 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar(doc)
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
+[debug] 		tried /Users/jmumm/.ivy2/local/com.jtfmumm/set-theory_2.10/0.1.2/srcs/set-theory_2.10-sources.jar
+[debug] 		tried /Users/jmumm/.ivy2/local/com.jtfmumm/set-theory_2.10/0.1.2/docs/set-theory_2.10-javadoc.jar
+[debug] 	[NOT REQUIRED] com.jtfmumm#set-theory_2.10;0.1.2!set-theory_2.10.jar
+[debug] 		tried http://repo1.maven.org/maven2/com/jtfmumm/set-theory_2.10/0.1.2/set-theory_2.10-0.1.2-sources.jar
+[info] downloading http://repo1.maven.org/maven2/com/jtfmumm/set-theory_2.10/0.1.2/set-theory_2.10-0.1.2-sources.jar ...
+[debug] 	public: downloading http://repo1.maven.org/maven2/com/jtfmumm/set-theory_2.10/0.1.2/set-theory_2.10-0.1.2-sources.jar
+[debug] 	public: downloading http://repo1.maven.org/maven2/com/jtfmumm/set-theory_2.10/0.1.2/set-theory_2.10-0.1.2-sources.jar.sha1
+[debug] sha1 OK for http://repo1.maven.org/maven2/com/jtfmumm/set-theory_2.10/0.1.2/set-theory_2.10-0.1.2-sources.jar
+[info] 	[SUCCESSFUL ] com.jtfmumm#set-theory_2.10;0.1.2!set-theory_2.10.jar(src) (377ms)
+[debug] 		tried http://repo1.maven.org/maven2/com/jtfmumm/set-theory_2.10/0.1.2/set-theory_2.10-0.1.2-javadoc.jar
+[info] downloading http://repo1.maven.org/maven2/com/jtfmumm/set-theory_2.10/0.1.2/set-theory_2.10-0.1.2-javadoc.jar ...
+[debug] 	public: downloading http://repo1.maven.org/maven2/com/jtfmumm/set-theory_2.10/0.1.2/set-theory_2.10-0.1.2-javadoc.jar
+[debug] 	public: downloading http://repo1.maven.org/maven2/com/jtfmumm/set-theory_2.10/0.1.2/set-theory_2.10-0.1.2-javadoc.jar.sha1
+[debug] sha1 OK for http://repo1.maven.org/maven2/com/jtfmumm/set-theory_2.10/0.1.2/set-theory_2.10-0.1.2-javadoc.jar
+[info] 	[SUCCESSFUL ] com.jtfmumm#set-theory_2.10;0.1.2!set-theory_2.10.jar(doc) (729ms)
+[debug] 	[NOT REQUIRED] com.jtfmumm#digit-parser_2.10;0.1.0!digit-parser_2.10.jar(src)
+[debug] 	[NOT REQUIRED] com.jtfmumm#digit-parser_2.10;0.1.0!digit-parser_2.10.jar(doc)
+[debug] 	[NOT REQUIRED] com.jtfmumm#digit-parser_2.10;0.1.0!digit-parser_2.10.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.3!scala-compiler.jar(doc)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.3!scala-compiler.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.10.3!scala-library.jar(doc)
@@ -306,7 +454,7 @@
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.3!jline.jar(doc)
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar(src)
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar(doc)
-[debug] :: resolution report :: resolve 215ms :: artifacts dl 42ms
+[debug] :: resolution report :: resolve 370ms :: artifacts dl 1167ms
 [debug] 	report for com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0 compile produced in /Users/jmumm/dev/scala/algebraic-structures/target/resolution-cache/reports/com.jtfmumm-algebraic-structures$sources_javadoc_2.10-compile.xml
 [debug] 	report for com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0 runtime produced in /Users/jmumm/dev/scala/algebraic-structures/target/resolution-cache/reports/com.jtfmumm-algebraic-structures$sources_javadoc_2.10-runtime.xml
 [debug] 	report for com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0 test produced in /Users/jmumm/dev/scala/algebraic-structures/target/resolution-cache/reports/com.jtfmumm-algebraic-structures$sources_javadoc_2.10-test.xml
@@ -320,4 +468,4 @@
 [debug] 	report for com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0 docs produced in /Users/jmumm/dev/scala/algebraic-structures/target/resolution-cache/reports/com.jtfmumm-algebraic-structures$sources_javadoc_2.10-docs.xml
 [debug] 	report for com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0 pom produced in /Users/jmumm/dev/scala/algebraic-structures/target/resolution-cache/reports/com.jtfmumm-algebraic-structures$sources_javadoc_2.10-pom.xml
 [debug] 	report for com.jtfmumm#algebraic-structures$sources_javadoc_2.10;0.1.0 scala-tool produced in /Users/jmumm/dev/scala/algebraic-structures/target/resolution-cache/reports/com.jtfmumm-algebraic-structures$sources_javadoc_2.10-scala-tool.xml
-[debug] 	resolve done (215ms resolve - 42ms download)
+[debug] 	resolve done (370ms resolve - 1167ms download)
