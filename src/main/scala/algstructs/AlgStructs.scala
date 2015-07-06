@@ -2,6 +2,7 @@ package main.scala.algstructs
 
 
 trait AlgStruct[A] {
+  def is(a: A, b: A): Boolean = a == b
 }
 
 trait Magma[A] extends AlgStruct[A] {

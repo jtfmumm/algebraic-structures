@@ -35,11 +35,13 @@ object AS {
     case class SetUnion extends Monoid[PureSet] {
       val e = PureSet()
       def op(a: PureSet, b: PureSet): PureSet = a.unionWith(b)
+      override def is(a: PureSet, b: PureSet): Boolean = a.is(b)
     }
 
     case class SetIntersection extends SemiGroup[PureSet] {
       //val e = [the universe] <-- but this isn't allowed
       def op(a: PureSet, b: PureSet): PureSet = a.intersectionWith(b)
+      override def is(a: PureSet, b: PureSet): Boolean = a.is(b)
     }
 
     case class SetDifference extends Group[PureSet] {
@@ -47,6 +49,7 @@ object AS {
       def inv(a: PureSet): PureSet = a
 
       def op(a: PureSet, b: PureSet): PureSet = a.relativeComplementIn(b)
+      override def is(a: PureSet, b: PureSet): Boolean = a.is(b)
     }
 
     val intGen = Gen.choose(0, 100)
@@ -67,21 +70,19 @@ object AS {
     println(PropertyChecker.isAbelianGroup[Int](IntAdd(), intGen))
     println("IntDivide: AbelianGroup?")
     println(PropertyChecker.isAbelianGroup[Int](IntDivide(), intGen))
+    println("IntDivide: Magma?")
+    println(PropertyChecker.isMagma[Int](IntDivide(), intGen))
     println("StringConcat: Monoid?")
     println(PropertyChecker.isMonoid[String](StringConcat(), stringGen))
     println("---SETS---")
     println("SetUnion: Monoid?")
-    println("assoc")
-    println(AlgProperties.associativityOn[PureSet](SetUnion(), Gen.listOfN(3, setGen).suchThat(_.size == 3), setEquality _).check)
-    println(PropertyChecker.isMonoid[PureSet](SetUnion(), setGen, setEquality _))
+    println(PropertyChecker.isMonoid[PureSet](SetUnion(), setGen))
     println("SetIntersection: SemiGroup?")
-    println("assoc")
-    println(AlgProperties.associativityOn[PureSet](SetIntersection(), Gen.listOfN(3, setGen).suchThat(_.size == 3), setEquality _).check)
-    println(PropertyChecker.isSemiGroup[PureSet](SetIntersection(), setGen, setEquality _))
+    println(PropertyChecker.isSemiGroup[PureSet](SetIntersection(), setGen))
     println("SetDifference: Magma?")
-    println(PropertyChecker.isMagma[PureSet](SetDifference(), setGen, setEquality _))
+    println(PropertyChecker.isMagma[PureSet](SetDifference(), setGen))
     println("SetDifference: Group?")
-    println(PropertyChecker.isGroup[PureSet](SetDifference(), setGen, setEquality _))
+    println(PropertyChecker.isGroup[PureSet](SetDifference(), setGen))
     //    println("IntAdd: defined")
 //    println(AlgProperties.definedForAllElementsOn[Int](IntAdd(), int2List).check)
 //    println("IntDivide: defined")
