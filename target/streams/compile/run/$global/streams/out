@@ -1,0 +1,12 @@
+[0m[[0minfo[0m] [0mRunning main.scala.AS [0m
+[0m[[0mdebug[0m] [0mWaiting for threads to exit or System.exit to be called.[0m
+[0m[[0mdebug[0m] [0m  Classpath:[0m
+[0m[[0mdebug[0m] [0m	/Users/jmumm/dev/scala/algebraic-structures/target/scala-2.10/classes[0m
+[0m[[0mdebug[0m] [0m	/Users/jmumm/.ivy2/cache/org.scalacheck/scalacheck_2.10/jars/scalacheck_2.10-1.12.4.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/jmumm/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.5.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/jmumm/.ivy2/cache/org.scala-sbt/test-interface/jars/test-interface-1.0.jar[0m
+[0m[[0mdebug[0m] [0mWaiting for thread run-main-0 to terminate.[0m
+[0m[[0mdebug[0m] [0m	Thread run-main-0 exited.[0m
+[0m[[0mdebug[0m] [0mInterrupting remaining threads (should be all daemons).[0m
+[0m[[0mdebug[0m] [0mSandboxed run complete..[0m
+[0m[[0mdebug[0m] [0mExited with code 0[0m

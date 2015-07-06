@@ -4,6 +4,8 @@ import algprops._
 import org.scalacheck._
 import org.scalacheck.Arbitrary._
 import org.scalacheck.Test._
+import sets.PureSet
+import sets.ui._
 
 object AS {
   def main(args: Array[String]) = {
@@ -30,12 +32,35 @@ object AS {
       def op(a: String, b: String): String = a + b
     }
 
+    case class SetUnion extends Monoid[PureSet] {
+      val e = PureSet()
+      def op(a: PureSet, b: PureSet): PureSet = a.unionWith(b)
+    }
+
+    case class SetIntersection extends SemiGroup[PureSet] {
+      //val e = [the universe] <-- but this isn't allowed
+      def op(a: PureSet, b: PureSet): PureSet = a.intersectionWith(b)
+    }
+
+    case class SetDifference extends Group[PureSet] {
+      val e = PureSet()
+      def inv(a: PureSet): PureSet = a
+
+      def op(a: PureSet, b: PureSet): PureSet = a.relativeComplementIn(b)
+    }
+
     val intGen = Gen.choose(0, 100)
     val int2List = Gen.listOfN(2, Gen.choose(0, 100)).suchThat(_.size == 2)
     val int3List = Gen.listOfN(3, Gen.choose(0, 100)).suchThat(_.size == 3)
     val stringGen = arbitrary[String]
     val string2List = Gen.listOfN(2, arbitrary[String]).suchThat(_.size == 2)
     val string3List = Gen.listOfN(3, arbitrary[String]).suchThat(_.size == 3)
+
+    val setGen: Gen[PureSet] = for {
+      name <- Gen.choose(0, 10)
+    } yield SetUI.parseInt(name.toString)
+
+    def setEquality(a: PureSet, b: PureSet): Boolean = a is b
 
 
     println("IntAdd: AbelianGroup?")
@@ -44,6 +69,19 @@ object AS {
     println(PropertyChecker.isAbelianGroup[Int](IntDivide(), intGen))
     println("StringConcat: Monoid?")
     println(PropertyChecker.isMonoid[String](StringConcat(), stringGen))
+    println("---SETS---")
+    println("SetUnion: Monoid?")
+    println("assoc")
+    println(AlgProperties.associativityOn[PureSet](SetUnion(), Gen.listOfN(3, setGen).suchThat(_.size == 3), setEquality _).check)
+    println(PropertyChecker.isMonoid[PureSet](SetUnion(), setGen, setEquality _))
+    println("SetIntersection: SemiGroup?")
+    println("assoc")
+    println(AlgProperties.associativityOn[PureSet](SetIntersection(), Gen.listOfN(3, setGen).suchThat(_.size == 3), setEquality _).check)
+    println(PropertyChecker.isSemiGroup[PureSet](SetIntersection(), setGen, setEquality _))
+    println("SetDifference: Magma?")
+    println(PropertyChecker.isMagma[PureSet](SetDifference(), setGen, setEquality _))
+    println("SetDifference: Group?")
+    println(PropertyChecker.isGroup[PureSet](SetDifference(), setGen, setEquality _))
     //    println("IntAdd: defined")
 //    println(AlgProperties.definedForAllElementsOn[Int](IntAdd(), int2List).check)
 //    println("IntDivide: defined")
