@@ -4,7 +4,7 @@
 		module="algebraic-structures_2.10"
 		revision="0.1.0"
 		status="integration"
-		publication="20150706182635"
+		publication="20150706183556"
 	>
 		<description>
 		Algebraic Structures
@@ -32,8 +32,8 @@
 		<artifact name="algebraic-structures_2.10" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 	</publications>
 	<dependencies>
-		<dependency org="org.scala-lang" name="scala-compiler" rev="2.10.3" conf="scala-tool->default,optional(default)"/>
-		<dependency org="org.scala-lang" name="scala-library" rev="2.10.3" conf="scala-tool->default,optional(default);compile->default(compile)"/>
+		<dependency org="org.scala-lang" name="scala-compiler" rev="2.10.4" conf="scala-tool->default,optional(default)"/>
+		<dependency org="org.scala-lang" name="scala-library" rev="2.10.4" conf="scala-tool->default,optional(default);compile->default(compile)"/>
 		<dependency org="org.scalacheck" name="scalacheck_2.10" rev="1.12.4" conf="compile->default(compile)"/>
 		<dependency org="com.jtfmumm" name="set-theory_2.10" rev="0.1.4" conf="compile->default(compile)"/>
 	</dependencies>

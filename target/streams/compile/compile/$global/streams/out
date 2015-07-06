@@ -1,124 +1,15 @@
 [0m[[0mdebug[0m] [0m[0m
 [0m[[0mdebug[0m] [0mInitial source changes: [0m
-[0m[[0mdebug[0m] [0m	removed:Set(/Users/jmumm/dev/scala/algebraic-structures/src/main/scala/sets/Sets.scala, /Users/jmumm/dev/scala/algebraic-structures/src/main/scala/sets/ui/SetUI.scala)[0m
+[0m[[0mdebug[0m] [0m	removed:Set()[0m
 [0m[[0mdebug[0m] [0m	added: Set()[0m
-[0m[[0mdebug[0m] [0m	modified: Set(/Users/jmumm/dev/scala/algebraic-structures/src/main/scala/AS.scala)[0m
+[0m[[0mdebug[0m] [0m	modified: Set()[0m
 [0m[[0mdebug[0m] [0mRemoved products: Set()[0m
 [0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
 [0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
-[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/Users/jmumm/dev/scala/algebraic-structures/src/main/scala/sets/Sets.scala, /Users/jmumm/dev/scala/algebraic-structures/src/main/scala/AS.scala, /Users/jmumm/dev/scala/algebraic-structures/src/main/scala/sets/ui/SetUI.scala)[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set()[0m
 [0m[[0mdebug[0m] [0m[0m
 [0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
 [0m[[0mdebug[0m] [0m	product: Set()[0m
 [0m[[0mdebug[0m] [0m	binary dep: Set()[0m
 [0m[[0mdebug[0m] [0m	external source: Set()[0m
-[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/Users/jmumm/dev/scala/algebraic-structures/src/main/scala/sets/Sets.scala, /Users/jmumm/dev/scala/algebraic-structures/src/main/scala/AS.scala, /Users/jmumm/dev/scala/algebraic-structures/src/main/scala/sets/ui/SetUI.scala)[0m
-[0m[[0mdebug[0m] [0mRecompiling all 5 sources: invalidated sources (3) exceeded 50.0% of all sources[0m
-[0m[[0minfo[0m] [0mCompiling 5 Scala sources to /Users/jmumm/dev/scala/algebraic-structures/target/scala-2.10/classes...[0m
-[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.10.4[0m
-[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.10.4[0m
-[0m[[0mdebug[0m] [0mRunning cached compiler 17d7bfba, interfacing (CompilerInterface) with Scala compiler version 2.10.4[0m
-[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
-[0m[[0mdebug[0m] [0m	-bootclasspath[0m
-[0m[[0mdebug[0m] [0m	/Library/Java/JavaVirtualMachines/jdk1.7.0_60.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_60.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_60.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_60.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_60.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_60.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_60.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_60.jdk/Contents/Home/jre/classes:/Users/jmumm/.sbt/boot/scala-2.10.4/lib/scala-library.jar[0m
-[0m[[0mdebug[0m] [0m	-classpath[0m
-[0m[[0mdebug[0m] [0m	/Users/jmumm/dev/scala/algebraic-structures/target/scala-2.10/classes:/Users/jmumm/.ivy2/cache/org.scalacheck/scalacheck_2.10/jars/scalacheck_2.10-1.12.4.jar:/Users/jmumm/.ivy2/cache/org.scala-sbt/test-interface/jars/test-interface-1.0.jar:/Users/jmumm/.ivy2/cache/com.jtfmumm/set-theory_2.10/jars/set-theory_2.10-0.1.2.jar:/Users/jmumm/.ivy2/cache/com.jtfmumm/digit-parser_2.10/jars/digit-parser_2.10-0.1.0.jar[0m
-[0m[[31merror[0m] [0m/Users/jmumm/dev/scala/algebraic-structures/src/main/scala/AS.scala:7: object jtfmumm is not a member of package com[0m
-[0m[[31merror[0m] [0mimport com.jtfmumm.sets.PureSet[0m
-[0m[[31merror[0m] [0m           ^[0m
-[0m[[31merror[0m] [0m/Users/jmumm/dev/scala/algebraic-structures/src/main/scala/AS.scala:8: object jtfmumm is not a member of package com[0m
-[0m[[31merror[0m] [0mimport com.jtfmumm.sets.ui._[0m
-[0m[[31merror[0m] [0m           ^[0m
-[0m[[31merror[0m] [0m/Users/jmumm/dev/scala/algebraic-structures/src/main/scala/AS.scala:31: not found: type PureSet[0m
-[0m[[31merror[0m] [0m    case class SetUnion extends Monoid[PureSet] {[0m
-[0m[[31merror[0m] [0m                                       ^[0m
-[0m[[31merror[0m] [0m/Users/jmumm/dev/scala/algebraic-structures/src/main/scala/AS.scala:32: not found: value PureSet[0m
-[0m[[31merror[0m] [0m      val e = PureSet()[0m
-[0m[[31merror[0m] [0m              ^[0m
-[0m[[31merror[0m] [0m/Users/jmumm/dev/scala/algebraic-structures/src/main/scala/AS.scala:33: not found: type PureSet[0m
-[0m[[31merror[0m] [0m      def op(a: PureSet, b: PureSet): PureSet = a.unionWith(b)[0m
-[0m[[31merror[0m] [0m                                      ^[0m
-[0m[[31merror[0m] [0m/Users/jmumm/dev/scala/algebraic-structures/src/main/scala/AS.scala:33: not found: type PureSet[0m
-[0m[[31merror[0m] [0m      def op(a: PureSet, b: PureSet): PureSet = a.unionWith(b)[0m
-[0m[[31merror[0m] [0m                ^[0m
-[0m[[31merror[0m] [0m/Users/jmumm/dev/scala/algebraic-structures/src/main/scala/AS.scala:33: not found: type PureSet[0m
-[0m[[31merror[0m] [0m      def op(a: PureSet, b: PureSet): PureSet = a.unionWith(b)[0m
-[0m[[31merror[0m] [0m                            ^[0m
-[0m[[31merror[0m] [0m/Users/jmumm/dev/scala/algebraic-structures/src/main/scala/AS.scala:34: not found: type PureSet[0m
-[0m[[31merror[0m] [0m      override def is(a: PureSet, b: PureSet): Boolean = a.is(b)[0m
-[0m[[31merror[0m] [0m                         ^[0m
-[0m[[31merror[0m] [0m/Users/jmumm/dev/scala/algebraic-structures/src/main/scala/AS.scala:34: not found: type PureSet[0m
-[0m[[31merror[0m] [0m      override def is(a: PureSet, b: PureSet): Boolean = a.is(b)[0m
-[0m[[31merror[0m] [0m                                     ^[0m
-[0m[[31merror[0m] [0m/Users/jmumm/dev/scala/algebraic-structures/src/main/scala/AS.scala:37: not found: type PureSet[0m
-[0m[[31merror[0m] [0m    case class SetIntersection extends SemiGroup[PureSet] {[0m
-[0m[[31merror[0m] [0m                                                 ^[0m
-[0m[[31merror[0m] [0m/Users/jmumm/dev/scala/algebraic-structures/src/main/scala/AS.scala:39: not found: type PureSet[0m
-[0m[[31merror[0m] [0m      def op(a: PureSet, b: PureSet): PureSet = a.intersectionWith(b)[0m
-[0m[[31merror[0m] [0m                                      ^[0m
-[0m[[31merror[0m] [0m/Users/jmumm/dev/scala/algebraic-structures/src/main/scala/AS.scala:39: not found: type PureSet[0m
-[0m[[31merror[0m] [0m      def op(a: PureSet, b: PureSet): PureSet = a.intersectionWith(b)[0m
-[0m[[31merror[0m] [0m                ^[0m
-[0m[[31merror[0m] [0m/Users/jmumm/dev/scala/algebraic-structures/src/main/scala/AS.scala:39: not found: type PureSet[0m
-[0m[[31merror[0m] [0m      def op(a: PureSet, b: PureSet): PureSet = a.intersectionWith(b)[0m
-[0m[[31merror[0m] [0m                            ^[0m
-[0m[[31merror[0m] [0m/Users/jmumm/dev/scala/algebraic-structures/src/main/scala/AS.scala:40: not found: type PureSet[0m
-[0m[[31merror[0m] [0m      override def is(a: PureSet, b: PureSet): Boolean = a.is(b)[0m
-[0m[[31merror[0m] [0m                         ^[0m
-[0m[[31merror[0m] [0m/Users/jmumm/dev/scala/algebraic-structures/src/main/scala/AS.scala:40: not found: type PureSet[0m
-[0m[[31merror[0m] [0m      override def is(a: PureSet, b: PureSet): Boolean = a.is(b)[0m
-[0m[[31merror[0m] [0m                                     ^[0m
-[0m[[31merror[0m] [0m/Users/jmumm/dev/scala/algebraic-structures/src/main/scala/AS.scala:43: not found: type PureSet[0m
-[0m[[31merror[0m] [0m    case class SetDifference extends Group[PureSet] {[0m
-[0m[[31merror[0m] [0m                                           ^[0m
-[0m[[31merror[0m] [0m/Users/jmumm/dev/scala/algebraic-structures/src/main/scala/AS.scala:44: not found: value PureSet[0m
-[0m[[31merror[0m] [0m      val e = PureSet()[0m
-[0m[[31merror[0m] [0m              ^[0m
-[0m[[31merror[0m] [0m/Users/jmumm/dev/scala/algebraic-structures/src/main/scala/AS.scala:45: not found: type PureSet[0m
-[0m[[31merror[0m] [0m      def inv(a: PureSet): PureSet = a[0m
-[0m[[31merror[0m] [0m                           ^[0m
-[0m[[31merror[0m] [0m/Users/jmumm/dev/scala/algebraic-structures/src/main/scala/AS.scala:45: not found: type PureSet[0m
-[0m[[31merror[0m] [0m      def inv(a: PureSet): PureSet = a[0m
-[0m[[31merror[0m] [0m                 ^[0m
-[0m[[31merror[0m] [0m/Users/jmumm/dev/scala/algebraic-structures/src/main/scala/AS.scala:47: not found: type PureSet[0m
-[0m[[31merror[0m] [0m      def op(a: PureSet, b: PureSet): PureSet = a.relativeComplementIn(b)[0m
-[0m[[31merror[0m] [0m                                      ^[0m
-[0m[[31merror[0m] [0m/Users/jmumm/dev/scala/algebraic-structures/src/main/scala/AS.scala:47: not found: type PureSet[0m
-[0m[[31merror[0m] [0m      def op(a: PureSet, b: PureSet): PureSet = a.relativeComplementIn(b)[0m
-[0m[[31merror[0m] [0m                ^[0m
-[0m[[31merror[0m] [0m/Users/jmumm/dev/scala/algebraic-structures/src/main/scala/AS.scala:47: not found: type PureSet[0m
-[0m[[31merror[0m] [0m      def op(a: PureSet, b: PureSet): PureSet = a.relativeComplementIn(b)[0m
-[0m[[31merror[0m] [0m                            ^[0m
-[0m[[31merror[0m] [0m/Users/jmumm/dev/scala/algebraic-structures/src/main/scala/AS.scala:48: not found: type PureSet[0m
-[0m[[31merror[0m] [0m      override def is(a: PureSet, b: PureSet): Boolean = a.is(b)[0m
-[0m[[31merror[0m] [0m                         ^[0m
-[0m[[31merror[0m] [0m/Users/jmumm/dev/scala/algebraic-structures/src/main/scala/AS.scala:48: not found: type PureSet[0m
-[0m[[31merror[0m] [0m      override def is(a: PureSet, b: PureSet): Boolean = a.is(b)[0m
-[0m[[31merror[0m] [0m                                     ^[0m
-[0m[[31merror[0m] [0m/Users/jmumm/dev/scala/algebraic-structures/src/main/scala/AS.scala:58: not found: type PureSet[0m
-[0m[[31merror[0m] [0m    val setGen: Gen[PureSet] = for {[0m
-[0m[[31merror[0m] [0m                    ^[0m
-[0m[[31merror[0m] [0m/Users/jmumm/dev/scala/algebraic-structures/src/main/scala/AS.scala:60: not found: value SetUI[0m
-[0m[[31merror[0m] [0m    } yield SetUI.parseInt(name.toString)[0m
-[0m[[31merror[0m] [0m            ^[0m
-[0m[[31merror[0m] [0m/Users/jmumm/dev/scala/algebraic-structures/src/main/scala/AS.scala:62: not found: type PureSet[0m
-[0m[[31merror[0m] [0m    def setEquality(a: PureSet, b: PureSet): Boolean = a is b[0m
-[0m[[31merror[0m] [0m                       ^[0m
-[0m[[31merror[0m] [0m/Users/jmumm/dev/scala/algebraic-structures/src/main/scala/AS.scala:62: not found: type PureSet[0m
-[0m[[31merror[0m] [0m    def setEquality(a: PureSet, b: PureSet): Boolean = a is b[0m
-[0m[[31merror[0m] [0m                                   ^[0m
-[0m[[31merror[0m] [0m/Users/jmumm/dev/scala/algebraic-structures/src/main/scala/AS.scala:75: not found: type PureSet[0m
-[0m[[31merror[0m] [0m    println(PropertyChecker.isMonoid[PureSet](SetUnion(), setGen))[0m
-[0m[[31merror[0m] [0m                                     ^[0m
-[0m[[31merror[0m] [0m/Users/jmumm/dev/scala/algebraic-structures/src/main/scala/AS.scala:77: not found: type PureSet[0m
-[0m[[31merror[0m] [0m    println(PropertyChecker.isSemiGroup[PureSet](SetIntersection(), setGen))[0m
-[0m[[31merror[0m] [0m                                        ^[0m
-[0m[[31merror[0m] [0m/Users/jmumm/dev/scala/algebraic-structures/src/main/scala/AS.scala:79: not found: type PureSet[0m
-[0m[[31merror[0m] [0m    println(PropertyChecker.isMagma[PureSet](SetDifference(), setGen))[0m
-[0m[[31merror[0m] [0m                                    ^[0m
-[0m[[31merror[0m] [0m/Users/jmumm/dev/scala/algebraic-structures/src/main/scala/AS.scala:81: not found: type PureSet[0m
-[0m[[31merror[0m] [0m    println(PropertyChecker.isGroup[PureSet](SetDifference(), setGen))[0m
-[0m[[31merror[0m] [0m                                    ^[0m
-[0m[[31merror[0m] [0m32 errors found[0m
-[0m[[0mdebug[0m] [0mCompilation failed (CompilerInterface)[0m
-[0m[[31merror[0m] [0m(compile:[31mcompile[0m) Compilation failed[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set()[0m
