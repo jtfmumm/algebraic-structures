@@ -9,10 +9,6 @@ import sets.ui._
 
 object AS {
   def main(args: Array[String]) = {
-//    val testParams = new Parameters.Default {
-//      override val minSuccessfulTests = 600
-//    }
-
     case class IntAdd extends AbelianGroup[Int] {
       val e = 0
       def inv(a: Int): Int = 0 - a
