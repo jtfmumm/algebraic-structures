@@ -2,64 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c7d90f5-815e-48c1-81f4-474fb3f75aa7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__com_jtfmumm_set_theory_2_10_0_1_2.xml" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__com_jtfmumm_digit_parser_2_10_0_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_jtfmumm_digit_parser_2_10_0_1_1.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__com_jtfmumm_set_theory_2_10_0_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_jtfmumm_set_theory_2_10_0_1_4.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/scala/AS.scala" afterPath="$PROJECT_DIR$/src/main/scala/algrun/AlgRun.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/inputs" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/inputs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/output" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/output" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.10/output" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.10/output" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/algprops/AlgProperties.scala" afterPath="$PROJECT_DIR$/src/main/scala/algprops/AlgProperties.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/algstructs/AlgStructs.scala" afterPath="$PROJECT_DIR$/src/main/scala/algstructs/AlgStructs.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/algprops/StructureByProperties.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/algrun/AlgRun.scala" afterPath="$PROJECT_DIR$/src/main/scala/algrun/AlgRun.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/algprops/PropertyChecker.scala" afterPath="$PROJECT_DIR$/src/main/scala/algprops/PropertyChecker.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.sbt" afterPath="$PROJECT_DIR$/build.sbt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/com.jtfmumm-algebraic-structures$sbt_2.10-default.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/com.jtfmumm-algebraic-structures$sbt_2.10-default.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/com.jtfmumm-algebraic-structures$sources_2.10-default.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/com.jtfmumm-algebraic-structures$sources_2.10-default.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/com.jtfmumm-algebraic-structures$sources_javadoc_2.10-compile-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/com.jtfmumm-algebraic-structures$sources_javadoc_2.10-compile-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/com.jtfmumm-algebraic-structures$sources_javadoc_2.10-compile.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/com.jtfmumm-algebraic-structures$sources_javadoc_2.10-compile.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/com.jtfmumm-algebraic-structures$sources_javadoc_2.10-docs.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/com.jtfmumm-algebraic-structures$sources_javadoc_2.10-docs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/com.jtfmumm-algebraic-structures$sources_javadoc_2.10-optional.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/com.jtfmumm-algebraic-structures$sources_javadoc_2.10-optional.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/com.jtfmumm-algebraic-structures$sources_javadoc_2.10-plugin.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/com.jtfmumm-algebraic-structures$sources_javadoc_2.10-plugin.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/com.jtfmumm-algebraic-structures$sources_javadoc_2.10-pom.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/com.jtfmumm-algebraic-structures$sources_javadoc_2.10-pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/com.jtfmumm-algebraic-structures$sources_javadoc_2.10-provided.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/com.jtfmumm-algebraic-structures$sources_javadoc_2.10-provided.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/com.jtfmumm-algebraic-structures$sources_javadoc_2.10-runtime-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/com.jtfmumm-algebraic-structures$sources_javadoc_2.10-runtime-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/com.jtfmumm-algebraic-structures$sources_javadoc_2.10-runtime.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/com.jtfmumm-algebraic-structures$sources_javadoc_2.10-runtime.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/com.jtfmumm-algebraic-structures$sources_javadoc_2.10-scala-tool.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/com.jtfmumm-algebraic-structures$sources_javadoc_2.10-scala-tool.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/com.jtfmumm-algebraic-structures$sources_javadoc_2.10-sources.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/com.jtfmumm-algebraic-structures$sources_javadoc_2.10-sources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/com.jtfmumm-algebraic-structures$sources_javadoc_2.10-test-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/com.jtfmumm-algebraic-structures$sources_javadoc_2.10-test-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/com.jtfmumm-algebraic-structures$sources_javadoc_2.10-test.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/com.jtfmumm-algebraic-structures$sources_javadoc_2.10-test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/com.jtfmumm-algebraic-structures_2.10-compile-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/com.jtfmumm-algebraic-structures_2.10-compile-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/com.jtfmumm-algebraic-structures_2.10-compile.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/com.jtfmumm-algebraic-structures_2.10-compile.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/com.jtfmumm-algebraic-structures_2.10-docs.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/com.jtfmumm-algebraic-structures_2.10-docs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/com.jtfmumm-algebraic-structures_2.10-optional.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/com.jtfmumm-algebraic-structures_2.10-optional.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/com.jtfmumm-algebraic-structures_2.10-plugin.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/com.jtfmumm-algebraic-structures_2.10-plugin.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/com.jtfmumm-algebraic-structures_2.10-pom.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/com.jtfmumm-algebraic-structures_2.10-pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/com.jtfmumm-algebraic-structures_2.10-provided.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/com.jtfmumm-algebraic-structures_2.10-provided.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/com.jtfmumm-algebraic-structures_2.10-runtime-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/com.jtfmumm-algebraic-structures_2.10-runtime-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/com.jtfmumm-algebraic-structures_2.10-runtime.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/com.jtfmumm-algebraic-structures_2.10-runtime.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/com.jtfmumm-algebraic-structures_2.10-scala-tool.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/com.jtfmumm-algebraic-structures_2.10-scala-tool.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/com.jtfmumm-algebraic-structures_2.10-sources.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/com.jtfmumm-algebraic-structures_2.10-sources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/com.jtfmumm-algebraic-structures_2.10-test-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/com.jtfmumm-algebraic-structures_2.10-test-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/com.jtfmumm-algebraic-structures_2.10-test.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/com.jtfmumm-algebraic-structures_2.10-test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/$global/$global/discoveredMainClasses/data" afterPath="$PROJECT_DIR$/target/streams/compile/$global/$global/discoveredMainClasses/data" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/compile/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/compile/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.10" afterPath="$PROJECT_DIR$/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.10" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/updateSbtClassifiers/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/updateSbtClassifiers/$global/streams/out" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/compile/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/compile/compile/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/run/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/compile/run/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/com.jtfmumm/algebraic-structures$sbt_2.10/0.1.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/resolution-cache/com.jtfmumm/algebraic-structures$sbt_2.10/0.1.0/resolved.xml.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/com.jtfmumm/algebraic-structures$sources_2.10/0.1.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/resolution-cache/com.jtfmumm/algebraic-structures$sources_2.10/0.1.0/resolved.xml.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/com.jtfmumm/algebraic-structures$sources_javadoc_2.10/0.1.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/resolution-cache/com.jtfmumm/algebraic-structures$sources_javadoc_2.10/0.1.0/resolved.xml.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/com.jtfmumm/algebraic-structures_2.10/0.1.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/resolution-cache/com.jtfmumm/algebraic-structures_2.10/0.1.0/resolved.xml.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/com.jtfmumm/algebraic-structures$sbt_2.10/0.1.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/com.jtfmumm/algebraic-structures$sbt_2.10/0.1.0/resolved.xml.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/com.jtfmumm/algebraic-structures$sources_2.10/0.1.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/com.jtfmumm/algebraic-structures$sources_2.10/0.1.0/resolved.xml.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/com.jtfmumm/algebraic-structures$sources_javadoc_2.10/0.1.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/com.jtfmumm/algebraic-structures$sources_javadoc_2.10/0.1.0/resolved.xml.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/com.jtfmumm/algebraic-structures_2.10/0.1.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/com.jtfmumm/algebraic-structures_2.10/0.1.0/resolved.xml.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/root.iml" afterPath="$PROJECT_DIR$/.idea/modules/root.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="algebraic-structures.iws" />
@@ -103,11 +51,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AlgRun.scala" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="AlgRun.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/algrun/AlgRun.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.42971596" vertical-offset="1516" max-vertical-offset="3240">
-              <caret line="78" column="27" selection-start-line="78" selection-start-column="27" selection-end-line="78" selection-end-column="27" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1134" max-vertical-offset="3240">
+              <caret line="69" column="32" selection-start-line="69" selection-start-column="32" selection-end-line="69" selection-end-column="32" />
               <folding>
                 <element signature="e#28#53#0" expanded="true" />
               </folding>
@@ -140,11 +88,21 @@
       <file leaf-file-name="PropertyChecker.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/algprops/PropertyChecker.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="989" max-vertical-offset="2349">
-              <caret line="68" column="26" selection-start-line="68" selection-start-column="26" selection-end-line="68" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="949" max-vertical-offset="2430">
+              <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
               <folding>
                 <element signature="e#30#53#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StructureByProperties.scala" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/algprops/StructureByProperties.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.019664967" vertical-offset="0" max-vertical-offset="1373">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -170,8 +128,9 @@
         <option value="$PROJECT_DIR$/build.sbt" />
         <option value="$PROJECT_DIR$/src/main/scala/algprops/AlgProperties.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/algprops/utilities/MemberChecker.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/algrun/AlgRun.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/algprops/StructureByProperties.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/algprops/PropertyChecker.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/algrun/AlgRun.scala" />
       </list>
     </option>
   </component>
@@ -717,12 +676,12 @@
       <changelist id="2c7d90f5-815e-48c1-81f4-474fb3f75aa7" name="Default" comment="" />
       <created>1436195375868</created>
       <updated>1436195375868</updated>
-      <workItem from="1436195377340" duration="20594000" />
+      <workItem from="1436195377340" duration="21293000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20594000" />
+    <option name="totallyTimeSpent" value="21293000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2560" height="1493" extended-state="6" />
@@ -802,16 +761,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/algprops/PropertyChecker.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="989" max-vertical-offset="2349">
-          <caret line="68" column="26" selection-start-line="68" selection-start-column="26" selection-end-line="68" selection-end-column="26" />
-          <folding>
-            <element signature="e#30#53#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/algstructs/AlgStructs.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="945">
@@ -820,13 +769,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/algprops/PropertyChecker.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="949" max-vertical-offset="2430">
+          <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+          <folding>
+            <element signature="e#30#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/algrun/AlgRun.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42971596" vertical-offset="1516" max-vertical-offset="3240">
-          <caret line="78" column="27" selection-start-line="78" selection-start-column="27" selection-end-line="78" selection-end-column="27" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1134" max-vertical-offset="3240">
+          <caret line="69" column="32" selection-start-line="69" selection-start-column="32" selection-end-line="69" selection-end-column="32" />
           <folding>
             <element signature="e#28#53#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/algprops/StructureByProperties.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.019664967" vertical-offset="0" max-vertical-offset="1373">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

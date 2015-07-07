@@ -40,16 +40,19 @@ object PropertyChecker {
     isGroup(a, gen) && res.passed
   }
 
-  def findStructure[A](as: AbelianGroup[A], gen: Gen[A]): Map[String, Boolean] = {
-    checkAsAbelianGroup[A](as, gen)
+  def findStructure[A](as: AbelianGroup[A], gen: Gen[A]): String = {
+    val props = checkAsAbelianGroup[A](as, gen)
+    StructureByProperties.lookup(props) + "\n" + props
   }
 
-  def findStructure[A](as: Monoid[A], gen: Gen[A]): Map[String, Boolean] = {
-    checkAsMonoid[A](as, gen)
+  def findStructure[A](as: Monoid[A], gen: Gen[A]): String = {
+    val props = checkAsMonoid[A](as, gen)
+    StructureByProperties.lookup(props) + "\n" + props
   }
 
-  def findStructure[A](as: SemiGroup[A], gen: Gen[A]): Map[String, Boolean] = {
-    checkAsSemiGroup[A](as, gen)
+  def findStructure[A](as: SemiGroup[A], gen: Gen[A]): String = {
+    val props = checkAsSemiGroup[A](as, gen)
+    StructureByProperties.lookup(props) + "\n" + props
   }
 
   def checkAsAbelianGroup[A](as: AbelianGroup[A], gen: Gen[A]): Map[String, Boolean] = {
