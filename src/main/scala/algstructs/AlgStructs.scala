@@ -1,4 +1,4 @@
-package main.scala.algstructs
+package com.jtfmumm.algstructs
 
 
 trait AlgStruct[A] {

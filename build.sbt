@@ -14,6 +14,7 @@ lazy val root = (project in file(".")).
     name := "Algebraic Structures",
     libraryDependencies += scalacheck,
     libraryDependencies += setTheory,
+    mainClass := Some("algrun.AlgRun"),
     publishMavenStyle := true,
     publishTo := {
       val nexus = "https://oss.sonatype.org/"

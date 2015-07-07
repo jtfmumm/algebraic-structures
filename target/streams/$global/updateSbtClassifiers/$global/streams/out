@@ -559,9 +559,9 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-agent;0.13.2!test-agent.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.2!apply-macro.jar
-[debug] :: resolution report :: resolve 873ms :: artifacts dl 26ms
+[debug] :: resolution report :: resolve 1338ms :: artifacts dl 35ms
 [debug] 	report for com.jtfmumm#algebraic-structures$sbt_2.10;0.1.0 default produced in /Users/jmumm/dev/scala/algebraic-structures/target/resolution-cache/reports/com.jtfmumm-algebraic-structures$sbt_2.10-default.xml
-[debug] 	resolve done (873ms resolve - 26ms download)
+[debug] 	resolve done (1338ms resolve - 35ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: com.jtfmumm#algebraic-structures$sources_2.10;0.1.0
 [debug] 	confs: [default]
@@ -853,6 +853,6 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_8_2;0.13.2!precompiled-2_8_2.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_2;0.13.2!precompiled-2_9_2.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_3;0.13.2!precompiled-2_9_3.jar(src)
-[debug] :: resolution report :: resolve 179ms :: artifacts dl 27ms
+[debug] :: resolution report :: resolve 206ms :: artifacts dl 35ms
 [debug] 	report for com.jtfmumm#algebraic-structures$sources_2.10;0.1.0 default produced in /Users/jmumm/dev/scala/algebraic-structures/target/resolution-cache/reports/com.jtfmumm-algebraic-structures$sources_2.10-default.xml
-[debug] 	resolve done (179ms resolve - 27ms download)
+[debug] 	resolve done (206ms resolve - 35ms download)

@@ -1,10 +1,10 @@
-package main.scala.algprops
+package com.jtfmumm.algprops
 
 import org.scalacheck._
 import org.scalacheck.Prop
 import org.scalacheck.Arbitrary._
 import org.scalacheck.Test._
-import main.scala.algstructs._
+import com.jtfmumm.algstructs._
 
 object PropertyChecker {
   def standardEquality[A](a: A, b: A) = a == b
@@ -38,5 +38,44 @@ object PropertyChecker {
   def isAbelianGroup[A](a: AbelianGroup[A], gen: Gen[A]): Boolean = {
     val res = Test.check(tests600, AlgProperties.commutativityOn[A](a, listOfN[A](2, gen)))
     isGroup(a, gen) && res.passed
+  }
+
+  def findStructure[A](as: AbelianGroup[A], gen: Gen[A]): Map[String, Boolean] = {
+    checkAsAbelianGroup[A](as, gen)
+  }
+
+  def findStructure[A](as: Monoid[A], gen: Gen[A]): Map[String, Boolean] = {
+    checkAsMonoid[A](as, gen)
+  }
+
+  def findStructure[A](as: SemiGroup[A], gen: Gen[A]): Map[String, Boolean] = {
+    checkAsSemiGroup[A](as, gen)
+  }
+
+  def checkAsAbelianGroup[A](as: AbelianGroup[A], gen: Gen[A]): Map[String, Boolean] = {
+    Map("defined" -> Test.check(tests600, AlgProperties.definedForAllElementsOn[A](as, listOfN[A](2, gen))).passed,
+        "associative" -> Test.check(tests600, AlgProperties.associativityOn[A](as, listOfN[A](3, gen))).passed,
+        "commutative" -> Test.check(tests600, AlgProperties.commutativityOn[A](as, listOfN[A](2, gen))).passed,
+        "identity element" -> Test.check(tests600, AlgProperties.identityOn[A](as, gen)).passed,
+        "inverse element" -> Test.check(tests600, AlgProperties.inverseOn[A](as, gen)).passed
+    )
+  }
+
+  def checkAsMonoid[A](as: Monoid[A], gen: Gen[A]): Map[String, Boolean] = {
+    Map("defined" -> Test.check(tests600, AlgProperties.definedForAllElementsOn[A](as, listOfN[A](2, gen))).passed,
+      "associative" -> Test.check(tests600, AlgProperties.associativityOn[A](as, listOfN[A](3, gen))).passed,
+      "commutative" -> false,
+      "identity element" -> Test.check(tests600, AlgProperties.identityOn[A](as, gen)).passed,
+      "inverse element" -> false
+    )
+  }
+
+  def checkAsSemiGroup[A](as: SemiGroup[A], gen: Gen[A]): Map[String, Boolean] = {
+    Map("defined" -> Test.check(tests600, AlgProperties.definedForAllElementsOn[A](as, listOfN[A](2, gen))).passed,
+      "associative" -> Test.check(tests600, AlgProperties.associativityOn[A](as, listOfN[A](3, gen))).passed,
+      "commutative" -> false,
+      "identity element" -> false,
+      "inverse element" -> false
+    )
   }
 }

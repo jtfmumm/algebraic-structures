@@ -1,7 +1,8 @@
-package main.scala.algprops
+package com.jtfmumm.algprops
+
 import org.scalacheck.Prop._
 import org.scalacheck._
-import main.scala.algstructs._
+import com.jtfmumm.algstructs._
 
 
 

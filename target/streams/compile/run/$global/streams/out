@@ -1,4 +1,4 @@
-[0m[[0minfo[0m] [0mRunning main.scala.AS [0m
+[0m[[0minfo[0m] [0mRunning com.jtfmumm.algrun.AlgRun [0m
 [0m[[0mdebug[0m] [0mWaiting for threads to exit or System.exit to be called.[0m
 [0m[[0mdebug[0m] [0m  Classpath:[0m
 [0m[[0mdebug[0m] [0m	/Users/jmumm/dev/scala/algebraic-structures/target/scala-2.10/classes[0m

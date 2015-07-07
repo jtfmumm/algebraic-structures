@@ -7,15 +7,15 @@
 		revision="0.1.0"
 		conf="test"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20150706183556"/>
+		date="20150707094108"/>
 	<dependencies>
 		<module organisation="com.jtfmumm" name="set-theory_2.10">
-			<revision name="0.1.4" status="release" pubdate="20150706182437" resolver="public" artresolver="public" homepage="http://github.com/jtfmumm/set-theory" downloaded="true" searched="true" default="false" conf="default(compile), default, compile, runtime, master" position="3">
+			<revision name="0.1.4" status="release" pubdate="20150706182437" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/jtfmumm/set-theory" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="3">
 				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
-				<metadata-artifact status="successful" details="" size="1562" time="303" location="/Users/jmumm/.ivy2/cache/com.jtfmumm/set-theory_2.10/ivy-0.1.4.xml" searched="true" original-local-location="/Users/jmumm/.ivy2/cache/com.jtfmumm/set-theory_2.10/ivy-0.1.4.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/jtfmumm/set-theory_2.10/0.1.4/set-theory_2.10-0.1.4.pom"/>
+				<metadata-artifact status="no" details="" size="2659" time="0" location="/Users/jmumm/.ivy2/cache/com.jtfmumm/set-theory_2.10/ivy-0.1.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/jtfmumm/set-theory_2.10/0.1.4/set-theory_2.10-0.1.4.pom"/>
 				<caller organisation="com.jtfmumm" name="algebraic-structures_2.10" conf="test, compile, runtime" rev="0.1.4" rev-constraint-default="0.1.4" rev-constraint-dynamic="0.1.4" callerrev="0.1.0"/>
 				<artifacts>
-					<artifact name="set-theory_2.10" type="jar" ext="jar" status="successful" details="" size="34690" time="752" location="/Users/jmumm/.ivy2/cache/com.jtfmumm/set-theory_2.10/jars/set-theory_2.10-0.1.4.jar">
+					<artifact name="set-theory_2.10" type="jar" ext="jar" status="no" details="" size="34690" time="0" location="/Users/jmumm/.ivy2/cache/com.jtfmumm/set-theory_2.10/jars/set-theory_2.10-0.1.4.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/jtfmumm/set-theory_2.10/0.1.4/set-theory_2.10-0.1.4.jar"/>
 					</artifact>
 				</artifacts>
