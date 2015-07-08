@@ -3,11 +3,12 @@ package com.jtfmumm.algprops
 object StructureByProperties {
   def lookup(m: Map[String, Boolean]) = {
     m match {
-      case a if isAbelianGroup(m) => "Abelian Group"
-      case b if isGroup(m) => "Group"
-      case c if isMonoid(m) => "Monoid"
-      case d if isSemiGroup(m) => "SemiGroup"
-      case e if isMagma(m) => "Magma"
+      case _ if isAbelianGroup(m) => "Abelian Group"
+      case _ if isGroup(m) => "Group"
+      case _ if isCommutativeMonoid(m) => "Commutative Monoid"
+      case _ if isMonoid(m) => "Monoid"
+      case _ if isSemiGroup(m) => "SemiGroup"
+      case _ if isMagma(m) => "Magma"
       case _ => "No Algebraic Structure"
     }
   }
@@ -21,6 +22,7 @@ object StructureByProperties {
   def isMagma(m: Map[String, Boolean]) = isDefined(m)
   def isSemiGroup(m: Map[String, Boolean]) = isMagma(m) && isAssociative(m)
   def isMonoid(m: Map[String, Boolean]) = isSemiGroup(m) && hasIdentity(m)
+  def isCommutativeMonoid(m: Map[String, Boolean]) = isSemiGroup(m) && isMonoid(m) && isCommutative(m)
   def isGroup(m: Map[String, Boolean]) = isMonoid(m) && hasInverse(m)
   def isAbelianGroup(m: Map[String, Boolean]) = isGroup(m) && isCommutative(m)
 }

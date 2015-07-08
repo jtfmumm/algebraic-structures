@@ -55,6 +55,21 @@ object PropertyChecker {
     StructureByProperties.lookup(props) + "\n" + props
   }
 
+//  def findStructure[A](as: Ring[A], gen: Gen[A]): String = {
+//    val props = checkAsRing[A](as, gen)
+//    StructureByProperties.lookup(props) + "\n" + props
+//  }
+//
+//  def findStructure[A](as: IntegralDomain[A], gen: Gen[A]): String = {
+//    val props = checkAsIntegralDomain[A](as, gen)
+//    StructureByProperties.lookup(props) + "\n" + props
+//  }
+//
+//  def findStructure[A](as: Field[A], gen: Gen[A]): String = {
+//    val props = checkAsField[A](as, gen)
+//    StructureByProperties.lookup(props) + "\n" + props
+//  }
+
   def checkAsAbelianGroup[A](as: AbelianGroup[A], gen: Gen[A]): Map[String, Boolean] = {
     Map("defined" -> Test.check(tests600, AlgProperties.definedForAllElementsOn[A](as, listOfN[A](2, gen))).passed,
         "associative" -> Test.check(tests600, AlgProperties.associativityOn[A](as, listOfN[A](3, gen))).passed,

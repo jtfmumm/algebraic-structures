@@ -27,3 +27,20 @@ trait Group[A] extends Monoid[A] {
 trait AbelianGroup[A] extends Group[A] {
     //Op is commutative
 }
+
+trait Ring[A] extends AbelianGroup[A] {
+  def mult(a: A, b: A): A
+  //Mult is associative and distributive over op
+}
+
+trait IntegralDomain[A] extends Ring[A] {
+  //Mult is commutative
+  def one: A
+  //Contains identity element for mult (unity)
+  //Cancellation property holds
+}
+
+trait Field[A] extends IntegralDomain[A] {
+  //Contains inverse element for mult (unity)
+  def multInv(a: A): A
+}

@@ -36,5 +36,22 @@ object AlgProperties {
   def inverseOn[A](as: Group[A], genFor: Gen[A]) = forAll(genFor)(x => {
     as.is(as.op(x, as.inv(x)), as.e)
   })
+  def multiplicativeAssociativityOn[A](as: Ring[A], genFor: Gen[List[A]]) = forAll(genFor)(l => {
+    val x = l(0)
+    val y = l(1)
+    val z = l(2)
+    as.is(as.mult(as.mult(x, y), z), as.mult(x, as.mult(y, z)))
+  })
+  def multiplicativeCommutativityOn[A](as: Ring[A], genFor: Gen[List[A]]) = forAll(genFor)(l => {
+    val x = l(0)
+    val y = l(1)
+    as.is(as.mult(x, y), as.mult(y, x))
+  })
+  def unityOn[A](as: IntegralDomain[A], genFor: Gen[A]) = forAll(genFor)(x => {
+    as.is(as.mult(x, as.one), x)
+  })
+  def multiplicativeInverseOn[A](as: Field[A], genFor: Gen[A]) = forAll(genFor)(x => {
+    as.is(as.mult(x, as.multInv(x)), as.one)
+  })
 }
 
