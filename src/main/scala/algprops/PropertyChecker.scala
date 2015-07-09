@@ -40,6 +40,14 @@ object PropertyChecker {
     isGroup(a, gen) && res.passed
   }
 
+  def isFiniteGroup[A](fg: FiniteGroup[A]): Boolean = {
+    def gen = for {
+      index <- Gen.choose(0, fg.set.size - 1)
+    } yield fg.set.toList(index)
+    isGroup(fg, gen)
+  }
+
+
   def findStructure[A](as: AbelianGroup[A], gen: Gen[A]): String = {
     val props = checkAsAbelianGroup[A](as, gen)
     StructureByProperties.lookup(props) + "\n" + props
