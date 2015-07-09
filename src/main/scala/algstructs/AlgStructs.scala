@@ -49,16 +49,23 @@ trait Field[A] extends IntegralDomain[A] {
 
 // FINITE
 
-trait FiniteGroup[A] extends Group[A] {
+
+trait FiniteStructure[A] extends AlgStruct[A] {
   //Contains a finite set
   val set: Set[A]
-  //Contains an inverse element
-  def inv(a: A): A
 
   def order = set.size
 
   def contains(x: A) = set.contains(x)
+}
 
+trait FiniteMagma[A] extends Magma[A] with FiniteStructure[A]
+
+trait FiniteSemiGroup[A] extends SemiGroup[A] with FiniteMagma[A]
+
+trait FiniteMonoid[A] extends Monoid[A] with FiniteSemiGroup[A]
+
+trait FiniteGroup[A] extends Group[A] with FiniteMonoid[A] {
   def isSubgroupOf(g: FiniteGroup[A]) = set.subsetOf(g.set)
 
   def isHomomorphismTo[B](f: A => B, h: FiniteGroup[B]) = {

@@ -87,28 +87,10 @@ object AlgRun {
     println(PropertyChecker.isMagma[PureSet](SetDifference(), setGen))
     println("SetDifference: Group?")
     println(PropertyChecker.isGroup[PureSet](SetDifference(), setGen))
-    //    println("IntAdd: defined")
-//    println(AlgProperties.definedForAllElementsOn[Int](IntAdd(), int2List).check)
-//    println("IntDivide: defined")
-//    println(AlgProperties.definedForAllElementsOn[Int](IntDivide(), int2List).check)
-//    println("StringConcat: defined")
-//    println(AlgProperties.definedForAllElementsOn[String](StringConcat(), string2List).check)
-//    println("StringConcat: assoc")
-//    println(AlgProperties.associativityOn[String](StringConcat(), string3List).check)
-//    println("IntAdd: assoc")
-//    println(AlgProperties.associativityOn[Int](IntAdd(), int3List).check)
-//    println("StringConcat: comm")
-//    println(AlgProperties.commutativityOn[String](StringConcat(), string2List).check)
-//    println("IntAdd: comm")
-//    println(AlgProperties.commutativityOn[Int](IntAdd(), int3List).check)
-//    println("IntAdd: id")
-//    println(AlgProperties.identityOn[Int](IntAdd(), int1).check)
-//    println("IntAdd: inv")
-//    println(AlgProperties.inverseOn[Int](IntAdd(), int1).check)
-//    println("StringConcat: id")
-//    println(AlgProperties.identityOn[String](StringConcat(), string1).check)
-//
-//    println("Checker:::")
-//    println(PropertyChecker.isMonoid[Int](IntAdd(), int1))
+
+
+    //FINITE STRUCTURES
+//    println(MultMod5Without0())
+//    println(MultMod4Without0()) // this fails!
   }
 }

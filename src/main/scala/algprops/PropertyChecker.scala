@@ -104,4 +104,62 @@ object PropertyChecker {
       "inverse element" -> false
     )
   }
+
+
+  //FINITE STRUCTURES
+
+  def isMagma[A](m: FiniteMagma[A]): Boolean = {
+    AlgProperties.definedForAllElementsOn[A](m)
+  }
+
+  def isSemiGroup[A](s: FiniteSemiGroup[A]): Boolean = {
+    isMagma(s) && AlgProperties.associativityOn[A](s)
+  }
+
+  def isMonoid[A](m: FiniteMonoid[A]): Boolean = {
+    isSemiGroup(m) && AlgProperties.identityOn[A](m)
+  }
+
+  def isGroup[A](g: FiniteGroup[A]): Boolean = {
+    isMonoid(g) && AlgProperties.inverseOn[A](g)
+  }
+
+
+  //  def verifyStructure[A](m: FiniteMagma[A]): Boolean = {
+//    val res = Test.check(tests600, AlgProperties.definedForAllElementsOn[A](m, listOfN[A](2, gen)))
+//    res.passed
+//  }
+//
+//  def verifyStructure[A](s: FiniteSemiGroup[A]): Boolean = {
+//    val res = Test.check(tests600, AlgProperties.associativityOn[A](s, listOfN[A](3, gen)))
+//    isMagma(s, gen) && res.passed
+//  }
+//
+//  def verifyStructure[A](m: FiniteMonoid[A]): Boolean = {
+//    val res = Test.check(tests600, AlgProperties.identityOn[A](m, gen))
+//    isSemiGroup(m, gen) && res.passed
+//  }
+//
+//  def verifyStructure[A](g: FiniteGroup[A]): Boolean = {
+//    val res = Test.check(tests600, AlgProperties.inverseOn[A](g, gen))
+//    isMonoid(g, gen) && res.passed
+//  }
+
+
+  def verifyStructure[A](fg: FiniteMagma[A]): Boolean = {
+    isMagma(fg)
+  }
+
+  def verifyStructure[A](fg: FiniteSemiGroup[A]): Boolean = {
+    isSemiGroup(fg)
+  }
+
+  def verifyStructure[A](fg: FiniteMonoid[A]): Boolean = {
+    isMonoid(fg)
+  }
+
+  def verifyStructure[A](fg: FiniteGroup[A]): Boolean = {
+    isGroup(fg)
+  }
+
 }
