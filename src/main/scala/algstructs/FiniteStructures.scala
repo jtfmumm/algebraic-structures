@@ -3,6 +3,8 @@ package com.jtfmumm.algstructs
 import com.jtfmumm.algprops._
 
 
+// We can use assertions to verify that our structure really is what we're claiming in the code.
+
 case class MultMod5Without0 extends FiniteGroup[Int] {
   val set = Set(1, 2, 3, 4)
   def op(a: Int, b: Int): Int = (a * b) % 5

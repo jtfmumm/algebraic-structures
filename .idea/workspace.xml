@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c7d90f5-815e-48c1-81f4-474fb3f75aa7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/algstructs/FiniteStructures.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/algprops/AlgProperties.scala" afterPath="$PROJECT_DIR$/src/main/scala/algprops/AlgProperties.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/algrun/AlgRun.scala" afterPath="$PROJECT_DIR$/src/main/scala/algrun/AlgRun.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/algstructs/AlgStructs.scala" afterPath="$PROJECT_DIR$/src/main/scala/algstructs/AlgStructs.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/algprops/PropertyChecker.scala" afterPath="$PROJECT_DIR$/src/main/scala/algprops/PropertyChecker.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.10" afterPath="$PROJECT_DIR$/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.10" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/run/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/compile/run/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/algstructs/FiniteStructures.scala" afterPath="$PROJECT_DIR$/src/main/scala/algstructs/FiniteStructures.scala" />
     </list>
     <ignored path="algebraic-structures.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,11 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AlgProperties.scala" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="AlgProperties.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/algprops/AlgProperties.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5143954" vertical-offset="696" max-vertical-offset="2486">
-              <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2486">
+              <caret line="64" column="19" selection-start-line="64" selection-start-column="19" selection-end-line="64" selection-end-column="19" />
               <folding>
                 <element signature="e#30#58#0" expanded="true" />
               </folding>
@@ -64,11 +58,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AlgStructs.scala" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="AlgStructs.scala" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/algstructs/AlgStructs.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1013" max-vertical-offset="2134">
-              <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.7914692" vertical-offset="1013" max-vertical-offset="2244">
+              <caret line="84" column="28" selection-start-line="84" selection-start-column="28" selection-end-line="84" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -77,8 +71,8 @@
       <file leaf-file-name="FiniteStructures.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/algstructs/FiniteStructures.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="770">
-              <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="814">
+              <caret line="5" column="96" selection-start-line="5" selection-start-column="96" selection-end-line="5" selection-end-column="96" />
               <folding />
             </state>
           </provider>
@@ -137,11 +131,11 @@
         <option value="$PROJECT_DIR$/src/main/scala/algstructs/FiniteStructs.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/algprops/FunctionProperties.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/algprops/FiniteStructures.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/algstructs/AlgStructs.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/algprops/PropertyChecker.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/algprops/AlgProperties.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/algstructs/FiniteStructures.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/algrun/AlgRun.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/algstructs/FiniteStructures.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/algstructs/AlgStructs.scala" />
       </list>
     </option>
   </component>
@@ -665,12 +659,12 @@
       <created>1436195375868</created>
       <updated>1436195375868</updated>
       <workItem from="1436195377340" duration="21293000" />
-      <workItem from="1436390537047" duration="8124000" />
+      <workItem from="1436390537047" duration="8389000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29417000" />
+    <option name="totallyTimeSpent" value="29682000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1175" extended-state="0" />
@@ -806,6 +800,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/algstructs/FiniteStructures.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="814">
+          <caret line="5" column="96" selection-start-line="5" selection-start-column="96" selection-end-line="5" selection-end-column="96" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/algrun/AlgRun.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1057" max-vertical-offset="2112">
@@ -814,29 +816,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/algstructs/AlgStructs.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1013" max-vertical-offset="2134">
-          <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/algstructs/FiniteStructures.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="770">
-          <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/algprops/AlgProperties.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5143954" vertical-offset="696" max-vertical-offset="2486">
-          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2486">
+          <caret line="64" column="19" selection-start-line="64" selection-start-column="19" selection-end-line="64" selection-end-column="19" />
           <folding>
             <element signature="e#30#58#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/algstructs/AlgStructs.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7914692" vertical-offset="1013" max-vertical-offset="2244">
+          <caret line="84" column="28" selection-start-line="84" selection-start-column="28" selection-end-line="84" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>

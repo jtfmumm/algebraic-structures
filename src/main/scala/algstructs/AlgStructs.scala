@@ -79,10 +79,15 @@ trait FiniteGroup[A] extends Group[A] with FiniteMonoid[A] {
     isHomomorphismTo[B](f, h) && FProps.isSurjection[A, B](f, set, h.set)
   }
 
-
+  // The order of an element is determined by the following equation:
+  // x^ord = e
+  // Where exponents are defined in terms of the group operation.
   def elOrder(x: A): Int = {
     if (!set.contains(x)) throw new Exception("x must be an element of the group!")
     if (x == e) return 1
+    // If this is really a finite group, then we know the following loop will terminate.
+    // That's because all elements of a finite group have a finite order.
+    // If this is not actually a finite group, who knows.
     def loop(cur: A, count: Int): Int = {
       val newCur = op(x, cur)
       if (newCur == e) count else loop(newCur, count + 1)
