@@ -7,7 +7,7 @@ import com.jtfmumm.algstructs._
 
 
 object AlgProperties {
-  // closure and injection are assured by the fact that in this implementation op is always a function of the form (A, A) => A
+  // closure is assured by the fact that in this implementation op is always a function of the form (A, A) => A
   def definedForAllElementsOn[A](as: Magma[A], genFor: Gen[List[A]]) = forAll(genFor)(l => {
     val x = l(0)
     val y = l(1)
