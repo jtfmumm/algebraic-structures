@@ -19,7 +19,7 @@ object AlgRun {
 
     case class IntDivide extends AbelianGroup[Int] {
       val e = 1
-      def inv(a: Int): Int = a
+      def inv(a: Int): Int = 1 / a
 
       def op(a: Int, b: Int): Int = a / b
     }
