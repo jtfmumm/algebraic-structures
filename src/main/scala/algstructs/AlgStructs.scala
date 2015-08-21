@@ -5,14 +5,11 @@ import com.jtfmumm.algprops.FProps
 
 trait AlgStruct[A] {
   def is(a: A, b: A): Boolean = a == b
-}
-
-trait Magma[A] extends AlgStruct[A] {
   //Defined for any (a, b) in A.
   def op(a: A, b: A): A
 }
 
-trait SemiGroup[A] extends Magma[A] {
+trait SemiGroup[A] extends AlgStruct[A] {
     //Op is associative
 }
 
@@ -50,7 +47,7 @@ trait Field[A] extends IntegralDomain[A] {
 // FINITE
 
 
-trait FiniteStructure[A] extends AlgStruct[A] {
+trait FiniteAlgStruct[A] extends AlgStruct[A] {
   //Contains a finite set
   val set: Set[A]
 
@@ -59,9 +56,7 @@ trait FiniteStructure[A] extends AlgStruct[A] {
   def contains(x: A) = set.contains(x)
 }
 
-trait FiniteMagma[A] extends Magma[A] with FiniteStructure[A]
-
-trait FiniteSemiGroup[A] extends SemiGroup[A] with FiniteMagma[A]
+trait FiniteSemiGroup[A] extends SemiGroup[A] with FiniteAlgStruct[A]
 
 trait FiniteMonoid[A] extends Monoid[A] with FiniteSemiGroup[A]
 
@@ -83,7 +78,7 @@ trait FiniteGroup[A] extends Group[A] with FiniteMonoid[A] {
   // x^ord = e
   // Where exponents are defined in terms of the group operation.
   def elOrder(x: A): Int = {
-    if (!set.contains(x)) throw new Exception("x must be an element of the group!")
+    require(contains(x))
     if (x == e) return 1
     // If this is really a finite group, then we know the following loop will terminate.
     // That's because all elements of a finite group have a finite order.

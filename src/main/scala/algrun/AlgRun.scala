@@ -42,7 +42,11 @@ object AlgRun {
     }
 
     case class SetDifference extends Group[PureSet] {
+      //This is not really an identity element, since it only
+      //holds for a / e = a, not e / a = a.
       val e = PureSet()
+      //If e were really the identity element, this would be
+      //the inverse function.
       def inv(a: PureSet): PureSet = a
 
       def op(a: PureSet, b: PureSet): PureSet = a.relativeComplementIn(b)
@@ -63,29 +67,29 @@ object AlgRun {
     def setEquality(a: PureSet, b: PureSet): Boolean = a is b
 
 
-    println("IntAdd: AbelianGroup?")
+    println("IntAdd: AbelianGroup?") // true
     println(PropertyChecker.isAbelianGroup[Int](IntAdd(), intGen))
-    println("IntDivide: AbelianGroup?")
+    println("IntDivide: AbelianGroup?") // false
     println(PropertyChecker.isAbelianGroup[Int](IntDivide(), intGen))
-    println("IntDivide: Magma?")
-    println(PropertyChecker.isMagma[Int](IntDivide(), intGen))
-    println("StringConcat: Monoid?")
+    println("IntDivide: Algebraic Structure?") // false
+    println(PropertyChecker.isAlgStruct[Int](IntDivide(), intGen))
+    println("StringConcat: Monoid?") // true
     println(PropertyChecker.isMonoid[String](StringConcat(), stringGen))
     println("---STRUCTURES---")
-    println("--IntAdd is")
+    println("--IntAdd is") // Abelian Group
     println(PropertyChecker.findStructure[Int](IntAdd(), intGen))
-    println("--IntDivide is")
+    println("--IntDivide is") // No Algebraic Structure
     println(PropertyChecker.findStructure[Int](IntDivide(), intGen))
-    println("--StringConcat is")
+    println("--StringConcat is") // Monoid
     println(PropertyChecker.findStructure[String](StringConcat(), stringGen))
     println("---SETS---")
-    println("SetUnion: Monoid?")
+    println("SetUnion: Monoid?") // true
     println(PropertyChecker.isMonoid[PureSet](SetUnion(), setGen))
-    println("SetIntersection: SemiGroup?")
+    println("SetIntersection: SemiGroup?") // true
     println(PropertyChecker.isSemiGroup[PureSet](SetIntersection(), setGen))
-    println("SetDifference: Magma?")
-    println(PropertyChecker.isMagma[PureSet](SetDifference(), setGen))
-    println("SetDifference: Group?")
+    println("SetDifference: Algebraic Structure?") // true
+    println(PropertyChecker.isAlgStruct[PureSet](SetDifference(), setGen))
+    println("SetDifference: Group?") // false
     println(PropertyChecker.isGroup[PureSet](SetDifference(), setGen))
 
 

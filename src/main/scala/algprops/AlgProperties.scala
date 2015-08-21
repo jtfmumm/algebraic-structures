@@ -8,7 +8,7 @@ import com.jtfmumm.algstructs._
 
 object AlgProperties {
   // closure is assured by the fact that in this implementation op is always a function of the form (A, A) => A
-  def definedForAllElementsOn[A](as: Magma[A], genFor: Gen[List[A]]) = forAll(genFor)(l => {
+  def definedForAllElementsOn[A](as: AlgStruct[A], genFor: Gen[List[A]]) = forAll(genFor)(l => {
     val x = l(0)
     val y = l(1)
     try {
@@ -19,22 +19,22 @@ object AlgProperties {
       case _: Throwable => false
     }
   })
-  def associativityOn[A](as: Magma[A], genFor: Gen[List[A]]) = forAll(genFor)(l => {
+  def associativityOn[A](as: AlgStruct[A], genFor: Gen[List[A]]) = forAll(genFor)(l => {
     val x = l(0)
     val y = l(1)
     val z = l(2)
     as.is(as.op(as.op(x, y), z), as.op(x, as.op(y, z)))
   })
-  def commutativityOn[A](as: Magma[A], genFor: Gen[List[A]]) = forAll(genFor)(l => {
+  def commutativityOn[A](as: AlgStruct[A], genFor: Gen[List[A]]) = forAll(genFor)(l => {
     val x = l(0)
     val y = l(1)
     as.is(as.op(x, y), as.op(y, x))
   })
   def identityOn[A](as: Monoid[A], genFor: Gen[A]) = forAll(genFor)(x => {
-    as.is(as.op(x, as.e), x)
+    as.is(as.op(x, as.e), x) && as.is(as.op(as.e, x), x)
   })
   def inverseOn[A](as: Group[A], genFor: Gen[A]) = forAll(genFor)(x => {
-    as.is(as.op(x, as.inv(x)), as.e)
+    as.is(as.op(x, as.inv(x)), as.e) && as.is(as.op(as.inv(x), x), as.e)
   })
   def multiplicativeAssociativityOn[A](as: Ring[A], genFor: Gen[List[A]]) = forAll(genFor)(l => {
     val x = l(0)
@@ -48,15 +48,15 @@ object AlgProperties {
     as.is(as.mult(x, y), as.mult(y, x))
   })
   def unityOn[A](as: IntegralDomain[A], genFor: Gen[A]) = forAll(genFor)(x => {
-    as.is(as.mult(x, as.one), x)
+    as.is(as.mult(x, as.one), x) && as.is(as.mult(as.one, x), x)
   })
   def multiplicativeInverseOn[A](as: Field[A], genFor: Gen[A]) = forAll(genFor)(x => {
-    as.is(as.mult(x, as.multInv(x)), as.one)
+    as.is(as.mult(x, as.multInv(x)), as.one) && as.is(as.mult(as.multInv(x), x), as.one)
   })
 
 
   //FINITE STRUCTURES
-  def definedForAllElementsOn[A](as: FiniteMagma[A]): Boolean = {
+  def definedForAllElementsOn[A](as: FiniteAlgStruct[A]): Boolean = {
     (for (
       x <- as.set;
       y <- as.set
@@ -70,7 +70,7 @@ object AlgProperties {
       }
     }).forall(result => result)
   }
-  def associativityOn[A](as: FiniteMagma[A]): Boolean = {
+  def associativityOn[A](as: FiniteAlgStruct[A]): Boolean = {
     (for (
       x <- as.set;
       y <- as.set;
@@ -79,7 +79,7 @@ object AlgProperties {
       as.is(as.op(as.op(x, y), z), as.op(x, as.op(y, z)))
     }).forall(result => result)
   }
-  def commutativityOn[A](as: FiniteMagma[A]): Boolean = {
+  def commutativityOn[A](as: FiniteAlgStruct[A]): Boolean = {
     (for (
       x <- as.set;
       y <- as.set
@@ -92,7 +92,7 @@ object AlgProperties {
       x <- as.set;
       y <- as.set
     ) yield {
-      as.is(as.op(x, as.e), x)
+      as.is(as.op(x, as.e), x) && as.is(as.op(as.e, x), x)
     }).forall(result => result)
   }
   def inverseOn[A](as: FiniteGroup[A]): Boolean = {
@@ -100,7 +100,7 @@ object AlgProperties {
       x <- as.set;
       y <- as.set
     ) yield {
-      as.is(as.op(x, as.inv(x)), as.e)
+      as.is(as.op(x, as.inv(x)), as.e) && as.is(as.op(as.inv(x), x), as.e)
     }).forall(result => result)
   }
 }
