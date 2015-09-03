@@ -94,7 +94,7 @@ object AlgRun {
 
 
     //FINITE STRUCTURES
-//    println(MultMod5Without0())
+    println(MultMod5Without0()) // this succeeds
 //    println(MultMod4Without0()) // this fails!
   }
 }

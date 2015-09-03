@@ -51,9 +51,9 @@ trait FiniteAlgStruct[A] extends AlgStruct[A] {
   //Contains a finite set
   val set: Set[A]
 
-  def order = set.size
+  def order: Int = set.size
 
-  def contains(x: A) = set.contains(x)
+  def contains(x: A): Boolean = set.contains(x)
 }
 
 trait FiniteSemiGroup[A] extends SemiGroup[A] with FiniteAlgStruct[A]
@@ -61,16 +61,16 @@ trait FiniteSemiGroup[A] extends SemiGroup[A] with FiniteAlgStruct[A]
 trait FiniteMonoid[A] extends Monoid[A] with FiniteSemiGroup[A]
 
 trait FiniteGroup[A] extends Group[A] with FiniteMonoid[A] {
-  def isSubgroupOf(g: FiniteGroup[A]) = set.subsetOf(g.set)
+  def isSubgroupOf(g: FiniteGroup[A]): Boolean = set.subsetOf(g.set)
 
-  def isHomomorphismTo[B](f: A => B, h: FiniteGroup[B]) = {
+  def isHomomorphismTo[B](f: A => B, h: FiniteGroup[B]): Boolean = {
     // f(xy) = f(x)*f(y) where * is in group h
     set.forall((x: A) =>
       set.forall((y: A) => f(op(x, y)) == h.op(f(x), f(y)))
     )
   }
 
-  def isHomomorphismOnto[B](f: A => B, h: FiniteGroup[B]) = {
+  def isHomomorphismOnto[B](f: A => B, h: FiniteGroup[B]): Boolean = {
     isHomomorphismTo[B](f, h) && FProps.isSurjection[A, B](f, set, h.set)
   }
 

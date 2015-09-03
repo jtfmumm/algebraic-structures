@@ -88,20 +88,14 @@ object AlgProperties {
     }).forall(result => result)
   }
   def identityOn[A](as: FiniteMonoid[A]): Boolean = {
-    (for (
-      x <- as.set;
-      y <- as.set
-    ) yield {
+    as.set.forall(x => {
       as.is(as.op(x, as.e), x) && as.is(as.op(as.e, x), x)
-    }).forall(result => result)
+    })
   }
   def inverseOn[A](as: FiniteGroup[A]): Boolean = {
-    (for (
-      x <- as.set;
-      y <- as.set
-    ) yield {
+    as.set.forall(x => {
       as.is(as.op(x, as.inv(x)), as.e) && as.is(as.op(as.inv(x), x), as.e)
-    }).forall(result => result)
+    })
   }
 }
 

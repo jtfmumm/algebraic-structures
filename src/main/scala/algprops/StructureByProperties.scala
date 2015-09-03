@@ -13,16 +13,16 @@ object StructureByProperties {
     }
   }
 
-  def isDefined(m: Map[String, Boolean]) = m("defined")
-  def isAssociative(m: Map[String, Boolean]) = m("associative")
-  def isCommutative(m: Map[String, Boolean]) = m("commutative")
-  def hasIdentity(m: Map[String, Boolean]) = m("identity element")
-  def hasInverse(m: Map[String, Boolean]) = m("inverse element")
+  private def isDefined(m: Map[String, Boolean]) = m("defined")
+  private def isAssociative(m: Map[String, Boolean]) = m("associative")
+  private def isCommutative(m: Map[String, Boolean]) = m("commutative")
+  private def hasIdentity(m: Map[String, Boolean]) = m("identity element")
+  private def hasInverse(m: Map[String, Boolean]) = m("inverse element")
 
-  def isMagma(m: Map[String, Boolean]) = isDefined(m)
-  def isSemiGroup(m: Map[String, Boolean]) = isMagma(m) && isAssociative(m)
-  def isMonoid(m: Map[String, Boolean]) = isSemiGroup(m) && hasIdentity(m)
-  def isCommutativeMonoid(m: Map[String, Boolean]) = isSemiGroup(m) && isMonoid(m) && isCommutative(m)
-  def isGroup(m: Map[String, Boolean]) = isMonoid(m) && hasInverse(m)
-  def isAbelianGroup(m: Map[String, Boolean]) = isGroup(m) && isCommutative(m)
+  private def isMagma(m: Map[String, Boolean]) = isDefined(m)
+  private def isSemiGroup(m: Map[String, Boolean]) = isMagma(m) && isAssociative(m)
+  private def isMonoid(m: Map[String, Boolean]) = isSemiGroup(m) && hasIdentity(m)
+  private def isCommutativeMonoid(m: Map[String, Boolean]) = isSemiGroup(m) && isMonoid(m) && isCommutative(m)
+  private def isGroup(m: Map[String, Boolean]) = isMonoid(m) && hasInverse(m)
+  private def isAbelianGroup(m: Map[String, Boolean]) = isGroup(m) && isCommutative(m)
 }

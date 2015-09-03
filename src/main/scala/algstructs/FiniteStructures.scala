@@ -12,7 +12,7 @@ case class MultMod5Without0 extends FiniteGroup[Int] {
     (a * b) % 5
   }
   val e = 1
-  def inv(a: Int) = {
+  def inv(a: Int): Int = {
     require(contains(a))
     a match {
       case 1 => 1
@@ -32,7 +32,7 @@ case class MultMod4Without0 extends FiniteGroup[Int] {
     (a * b) % 4
   }
   val e = 1
-  def inv(a: Int) = {
+  def inv(a: Int): Int = {
     require(contains(a))
     a match {
       case 1 => 1

@@ -4,7 +4,7 @@
 		module="algebraic-structures$sources_2.10"
 		revision="0.1.0"
 		status="integration"
-		publication="20150821085951"
+		publication="20150903095757"
 	/>
 	<configurations>
 		<conf name="default" visibility="public" description=""/>

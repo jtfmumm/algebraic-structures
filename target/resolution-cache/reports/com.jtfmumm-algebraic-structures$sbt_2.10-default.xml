@@ -7,7 +7,7 @@
 		revision="0.1.0"
 		conf="default"
 		confs="default"
-		date="20150821085950"/>
+		date="20150903095756"/>
 	<dependencies>
 		<module organisation="org.jetbrains" name="sbt-structure">
 			<revision name="2.4.0" status="release" pubdate="20140527185841" resolver="sbt-chain" artresolver="sbt-chain" extra-sbtVersion="0.13" extra-scalaVersion="2.10" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="44">
