@@ -53,9 +53,13 @@ object AlgRun {
       override def is(a: PureSet, b: PureSet): Boolean = a.is(b)
     }
 
-    val intGen = Gen.choose(0, 100)
-    val int2List = Gen.listOfN(2, Gen.choose(0, 100)).suchThat(_.size == 2)
-    val int3List = Gen.listOfN(3, Gen.choose(0, 100)).suchThat(_.size == 3)
+    val intGen = Gen.frequency(
+      (10, Gen.choose(-1000, 1000)),
+      (1, Gen.choose(Int.MaxValue - 1000, Int.MaxValue)),
+      (1, Gen.choose(Int.MinValue, Int.MinValue + 1000))
+    )
+    val int2List = Gen.listOfN(2, intGen).suchThat(_.size == 2)
+    val int3List = Gen.listOfN(3, intGen).suchThat(_.size == 3)
     val stringGen = arbitrary[String]
     val string2List = Gen.listOfN(2, arbitrary[String]).suchThat(_.size == 2)
     val string3List = Gen.listOfN(3, arbitrary[String]).suchThat(_.size == 3)
